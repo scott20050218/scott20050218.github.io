@@ -19,6 +19,7 @@ module.exports = {
           {text: '首页', link: '/'},
           {text: '指南', link: '/guides/'},
           {text: '案例', link: '/case/'},
+          {text: 'Python', link: '/python/'},
           {text: 'demo', link: 'https://admin.lihengrui.cn/'}
         ],
         navbar: true,
@@ -71,6 +72,7 @@ module.exports = {
           { text: 'Home', link: '/en/' },
           { text: 'Guide', link: '/en/guides/' },
           { text: 'Case', link: '/en/case/' },
+          { text: 'Python', link: '/en/python/'},
           { text: 'Demo', link: 'https://admin.lihengrui.cn/' }
         ],
         navbar: true,

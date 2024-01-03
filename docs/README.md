@@ -12,7 +12,7 @@ features:
 - title: 数据大屏
   details: 企业级的数据大屏项目，开箱即用，快速复制到实际项目，提供精选的可视化模板
   
-footer: © 南天网（nantian.com.cn） |  2021-2023 Powered by LiRui
+footer: © 南天网（nantian.com.cn） |  2021-2024 Powered by LiRui
 ---
 
 
