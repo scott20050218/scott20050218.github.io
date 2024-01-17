@@ -61,6 +61,37 @@ module.exports = {
                 // 'design/lines',
               ]
             },
+          ],
+          '/python/':[
+           {
+                title: '概述',
+                collapsable: true,
+                children: [
+                ''
+                ]
+            },
+            {
+                title: '环境准备',
+                collapsable: true,
+                children: [
+                'init/install',
+                'init/setup',
+                'init/IDEvs',
+                'init/Jupyter',
+                ]
+            },
+            {
+                title: '5个模块',
+                collapsable: true,
+                children: [
+                'module/numpy',
+                'module/scipy',
+                'module/pandas',
+                'module/matplotlib',
+                'module/scikit-learn',
+                'module/cal',
+                ]
+            },
           ]
         }
       },
@@ -114,7 +145,38 @@ module.exports = {
                 // 'design/lines',
               ]
             },
-          ]
+          ],
+          '/en/python/':[
+             {
+                  title: 'Overview',
+                  collapsable: true,
+                  children: [
+                  ''
+                  ]
+              },
+              {
+                  title: 'Env',
+                  collapsable: true,
+                  children: [
+                  'init/install',
+                  'init/setup',
+                  'init/IDEvs',
+                  'init/Jupyter',
+                  ]
+              },
+              {
+                  title: '5 module',
+                  collapsable: true,
+                  children: [
+                  'module/numpy',
+                  'module/scipy',
+                  'module/pandas',
+                  'module/matplotlib',
+                  'module/scikit-learn',
+                  'module/cal',
+                  ]
+              },
+            ]
         }
       }
     }
