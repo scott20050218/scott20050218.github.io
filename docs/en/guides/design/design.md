@@ -15,7 +15,7 @@ Suggestions include: business background, purpose, product, placement location, 
 ![image. png](../../img/guides/design/design/image. png)
 
 
-##Large screen environmental inspection
+## Large screen environmental inspection
 
 
 The investigation of the environment in which the large screen is located is crucial for the entire design process.

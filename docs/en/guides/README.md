@@ -2,11 +2,11 @@
 
 
 
-*NtDatav is a microcode development platform based on Echarts, suitable for any WEB project
-*Simple, agile, efficient, versatile, and highly customizable, instantly elevating your project's level
-*Completely connecting the front and back ends, supporting graphic data linkage, filtering, drilling, and supporting almost all common databases
-*Building block development model, ready to use out of the box, easy to install, less dependent, and suitable for various platforms
-*Highly customizable
+* NtDatav is a microcode development platform based on Echarts, suitable for any WEB project
+* Simple, agile, efficient, versatile, and highly customizable, instantly elevating your project's level
+* Completely connecting the front and back ends, supporting graphic data linkage, filtering, drilling, and supporting almost all common databases
+* Building block development model, ready to use out of the box, easy to install, less dependent, and suitable for various platforms
+* Highly customizable
 
 
 # Architecture Diagram

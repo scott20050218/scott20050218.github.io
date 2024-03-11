@@ -12,7 +12,7 @@ features:
 - title: Data screen
   details: Enterprise level data large screen project, ready to use out of the box, quickly copied to actual projects, providing visual templates
   
-footer: © Nantian (nantian.com.cn)   |   2021-2024 Powered by LiRui
+footer:  2021-2024 Powered by LiRui
 ---
 
 
@@ -25,3 +25,10 @@ footer: © Nantian (nantian.com.cn)   |   2021-2024 Powered by LiRui
 
 If you want to study this course, please support the genuine version. Thank you!
 [demo Url](https://admin.lihengrui.cn/)
+
+***
+<p style="text-align: center;">
+<a href="https://beian.miit.gov.cn/" target="_blank" style="color: black;">滇ICP备19000260号-1</a>&nbsp;|&nbsp;
+<a href="https://beian.mps.gov.cn/#/query/webSearch?code=53011402000669" rel="noreferrer" target="_blank" style="color: black;">滇公网安备53011402000669</a>
+</p>
+

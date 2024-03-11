@@ -10,7 +10,7 @@ The series of methods used to present relatively complex and abstract data in a 
 
 
 
-With the support of current new technologies, data visualization can not only be "visual", but also have the characteristics of being communicative and interactive< The essence of data visualization is the mapping from data space to graphic space, which is a concrete expression of abstract data**</ Font>
+With the support of current new technologies, data visualization can not only be "visual", but also have the characteristics of being communicative and interactive <font color='orange'>The essence of data visualization is the mapping from data space to graphic space, which is a concrete expression of abstract data  </font>
 
 
 
