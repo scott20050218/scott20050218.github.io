@@ -20,7 +20,8 @@ footer:  2021-2024 Powered by LiRui
 - 具备javascript、html、css的基础
 - 具备Vue的使用基础
 - 了解npm和webpack的基本概念
-![小程序](weixin.jpg "微信小程序")
+
+[//]: # (![小程序]&#40;weixin.jpg "微信小程序"&#41;)
 
 如果您想学习，请支持正版，谢谢！[demo地址](https://admin.lihengrui.cn/)
 ***

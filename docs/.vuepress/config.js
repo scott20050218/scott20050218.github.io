@@ -178,7 +178,87 @@ module.exports = {
               },
             ]
         }
-      }
+      },
+      '/de/':{
+              search: true,
+              searchMaxSuggestions: 5,
+              lastUpdated: 'lastUpdated',
+              nav: [
+                { text: 'Home', link: '/de/' },
+                { text: 'A1', link: '/de/A1/' },
+                { text: 'A2', link: '/de/A2/' },
+                { text: 'B1', link: '/de/B1/'},
+                { text: 'Grammatik', link: '/de/gram/' }
+              ],
+              navbar: true,
+              sidebar: {
+                collapsable: true,
+                '/de/A1/': [
+                  {
+                    title: 'Overview',
+                    collapsable: true,
+                    children: [
+                      ''
+                    ]
+                  },
+                  {
+                    title: 'Kurs',
+                    collapsable: true,
+                    children: [
+                      'kurs/KaffeeoderTee',
+                    ]
+                  },
+                ],
+                '/de/A2/':[
+                   {
+                        title: 'Overview',
+                        collapsable: true,
+                        children: [
+                        ''
+                        ]
+                    },
+                   {
+                        title: 'Kurs',
+                        collapsable: true,
+                        children: [
+                        'kurs/leben',
+                        ]
+                   },
+                  ],
+                '/de/B1/':[
+                   {
+                     title: 'Overview',
+                     collapsable: true,
+                     children: [
+                       ''
+                     ]
+                    },
+                    {
+                      title: 'Kurs',
+                      collapsable: true,
+                      children: [
+                        'kurs/metropolen',
+                      ]
+                    },
+                ],
+                '/de/gram/': [
+                   {
+                      title: '性数格',
+                      collapsable: true,
+                      children: [
+                       ''
+                      ]
+                   },
+                   {
+                       title: '形容词变位',
+                       collapsable: true,
+                       children: [
+                         'adj/base'
+                       ]
+                   },
+                ],
+              }
+            }
     }
   },
   locales: {
@@ -186,7 +266,7 @@ module.exports = {
       lang: 'zh-CN',
       title: '个人作品展示',
       // base: '/datav-docs/',
-      description: '李恒锐个人官网',
+      description: '李锐个人官网',
       markdown: {
         // markdown-it-anchor 的选项
         anchor: {permalink: false},
@@ -206,7 +286,7 @@ module.exports = {
     '/en/': {
       lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
       title: 'Personal work display',
-      description: 'Li Hengrui\'s personal official website',
+      description: 'Rui Li\'s personal official website',
         markdown: {
         // markdown-it-anchor 的选项
         anchor: { permalink: false },
@@ -214,6 +294,18 @@ module.exports = {
         toc: { includeLevel: [1] },
         lineNumbers: true
       }
+    },
+    '/de/': {
+        lang: 'de-DE', // 将会被设置为 <html> 的 lang 属性
+        title: 'Personal work display',
+        description: 'Rui Li\'s personal official website',
+            markdown: {
+            // markdown-it-anchor 的选项
+            anchor: { permalink: false },
+            // markdown-it-toc 的选项
+            toc: { includeLevel: [1] },
+            lineNumbers: true
+        }
     }
   }
 }
