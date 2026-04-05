@@ -1,31 +1,56 @@
-# 大屏设计的注意事项
+# Precautions for Big screen design
 
-## 1、字体使用
 
-字体优先使用系统默认字体，需要嵌入字体时考虑字体的可识别性、与当前设计风格是否融合、是否可免费商用。
+
+## 1. Font usage
+
+
+
+Priority should be given to using the system default font. When embedding fonts, consideration should be given to their recognizability, compatibility with the current design style, and free commercial use.
+
+
 
 ![image-20211123083447565](../../img/guides/design/attention/image-1.png)
 
-如果页面是云端部署，需要嵌入字体包时，我们可以使用**FontCreator**这类的软件把那些用不到的字符从字体包中删掉，然后重新打包上传，减小字体包大小，可以优化页面加载体验，避免在替换默认字体的过程中出现页面文字跳动等现象。（一般来讲一套字体文件包含了阿拉伯文、符号、拉丁文、日文、西里尔文、希腊文、拼音、注音符号等多种字符，对于大屏这个明确的场景，我们可以删掉其它使用不到的字符，仅保留中文、拼音和数字）
+
+
+If the page is deployed in the cloud and needs to embed a font package, we can use software such as * * FontCreator * * to remove unused characters from the font package, and then repackage and upload them to reduce the size of the font package. This can optimize the page loading experience and avoid page text jumping during the process of replacing the default font. (Generally speaking, a set of font files contains various characters such as Arabic, symbols, Latin, Japanese, Cyrillic, Greek, Pinyin, and Pinyin. For the clear scenario of a large screen, we can delete other characters that are not used and only retain Chinese, Pinyin, and numbers.)
+
 
 ![image-20211123083459131](../../img/guides/design/attention/image-2.png)
 
-关于字体版权获取相关问题，公众号回复“可视化”获取
 
-## 2、颜色搭配
+On issues related to font copyright acquisition, the official account replied to "visual" acquisition
 
- 1、**色彩明度与饱和度差异显著**、对比鲜明， 尽量避免使用邻近色配色
+
+
+## 2. Color matching
+
+
+
+1. * * Significant differences in color brightness and saturation * *, sharp contrast, try to avoid using adjacent color schemes
+
+
 
 ![image-20211123083511332](../../img/guides/design/attention/image-3.png)
 
 
 
-2、使用深色暗色背景：深色暗色背景可减少拼缝带来的不适感。由于背景面积大，使用暗色背景还能够减少屏幕色差对整体表现的影响；同时暗色背景更能聚焦视觉，也方便突出内容、做出一些流光、粒子等酷炫的效果，
 
-3、渐变色慎重使用：大屏普遍色域有偏差，显示偏色，因而使用渐变色需要根据大屏反馈确定是否调整，纯色最佳。
+2. Use a dark background: A dark background can reduce discomfort caused by stitching. Due to the large background area, using a dark background can also reduce the impact of screen color difference on overall performance; At the same time, a dark background is more visually focused, making it easier to highlight content and create cool effects such as streamers and particles,
 
-## 3、页面布局
 
-主次分明、条理清晰、注意留白，合理利用大屏上各小的显示单元，并尽量避免关键数据被拼缝分割
+
+3. Use gradient colors with caution: Large screens generally have color gamut deviations, resulting in color deviation. Therefore, when using gradient colors, it is necessary to determine whether to adjust based on the feedback from the large screen, and pure colors are the best.
+
+
+
+## 3. Page Layout
+
+
+
+Clear prioritization, clear organization, attention to white space, reasonable utilization of small display units on the large screen, and efforts to avoid key data being pieced together for segmentation
+
+
 
 ![image-20211123083526724](../../img/guides/design/attention/image-4.png)

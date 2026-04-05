@@ -1,23 +1,23 @@
-# 项目发布
+# Project Release
 
-## 项目编译
+## Project Compilation
 npm run build
 
-## nginx发布
+## Nginx Config
 ```js
 server {
-        #SSL 访问端口号为 443
+        #SSL port 443
         listen 443 ssl;
-        #填写绑定证书的域名
+        #Fill in the domain name of the binding certificate
         server_name sd.lihengrui.cn;
-        #证书文件名称
+        #certificate's name
         ssl_certificate /home/spring/ssl/sd/sd.lihengrui.cn_bundle.crt;
-        #私钥文件名称
+        #certificate file name
         ssl_certificate_key /home/spring/ssl/sd/sd.lihengrui.cn.key;
         ssl_session_timeout 5m;
-        #请按照以下协议配置
+        #Please configure according to the following protocol
         ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
-        #请按照以下套件配置，配置加密套件，写法遵循 openssl 标准。
+        #Please configure the encryption package according to the following package configuration, written according to the openssl standard.
         ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:HIGH:!aNULL:!MD5:!RC4:!DHE;
         ssl_prefer_server_ciphers on;
 

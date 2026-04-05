@@ -1,11 +1,17 @@
-# 设计原则
+# Design principles
 
-设计服务需求、先总览后细节
 
-## 设计服务需求
+Design service requirements, overview before details
 
-大屏设计要避免为了展示而展示，排版布局、图表选用等应服务于业务，所以大屏设计是在充分了解业务需求的基础上进行的。那什么是业务需求呢？业务需求就是要解决的问题或达成的目标。设计师通过设计的手段帮助相关人员达成这个目标，是大屏数据可视化的价值所在。
 
-## 先总览后细节
+## Design Service Requirements
 
-大屏因为大，承载数据多，为了避免观者迷失，大屏信息呈现要有焦点、有主次。可以通过对比，先把核心数据抛给用户，待用户理解大屏主要内容与展示逻辑后，再逐级浏览二三级内容。部分细节数据可暂时隐藏，用户需要时可通过鼠标点击等交互方式唤起。
+
+Large screen design should avoid displaying for display purposes, and layout and chart selection should serve the business. Therefore, large screen design is based on a thorough understanding of business needs. So what are business requirements? Business requirements are the problems to be solved or the goals to be achieved. The value of visualizing large screen data lies in the designer helping relevant personnel achieve this goal through design methods.
+
+
+## Overview before details
+
+
+Due to its large size, large screens carry a lot of data. In order to avoid viewers getting lost, the presentation of information on large screens should have a focus and priority. By comparison, the core data can be first thrown to the user, and after the user understands the main content and display logic of the large screen, they can then browse the second and third levels of content step by step. Some detailed data can be temporarily hidden, and users can call it up through interactive methods such as mouse clicks when needed.
+

@@ -1,14 +1,14 @@
 {
   "name": "screen-datav-docs",
   "version": "1.0.0",
-  "description": "南天可视化体系课配套官网",
+  "description": "可视化体系课配套官网",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build docs"
   },
   "keywords": [],
   "author": "",

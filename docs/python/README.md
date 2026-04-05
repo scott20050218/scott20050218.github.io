@@ -1,13 +1,19 @@
-
-# Python是什么
-Python是一种高级编程语言，它优雅、高效、有丰富的开源的动态库
+# What is Python？
+Python is a high-level programming language that is elegant, efficient, and rich in open-source dynamic libraries
 https://www.python.org/
 
-# Python能做什么
-数据处理
-科学计算
-当然Python也可以做Web开发，游戏开发，网络编程
+# What Python can do?
 
 
-# 我为什么要学习Python
-借助Python强大的数据处理能力，来处理数据
+Data processing
+
+Scientific computing
+
+Of course, Python can also be used for web development, game development, and network programming
+
+
+
+# Why do I need to learn Python?
+
+Utilize Python's powerful data processing capabilities to process data
+

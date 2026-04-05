@@ -1,134 +1,192 @@
-# 大屏设计流程
+# Large screen design process
 
-规范的流程是好结果的保证。找到一个可参考的流程，然后步步为营，就能避免很多不必要的返工，保证设计质量和项目进度。
+
+A standardized process is the guarantee of good results. By finding a reference process and taking it step by step, we can avoid many unnecessary rework and ensure design quality and project progress.
+
 
 ![image-20211123083235990](../../img/guides/design/process/image-1.png)
 
-## 1、根据业务场景抽取关键指标
 
-关键指标是一些概括性词语，是对一组或者一系列数据的统称。一般情况下，一个指标在大屏上独占一块区域，所以通过关键指标定义，我们就知道大屏上大概会显示哪些内容以及大屏会被分为几块。以共享单车电子围栏监控系统为例，这里的关键指标有：企业停车时长、企业违停量、热点违停区域、车辆入栏率等。
-
+## 1. Extract key indicators based on business scenarios
 
 
-确定关键指标后，根据业务需求拟定各个指标展示的优先级（主、次、辅）。
+Key indicators are general terms that refer to a group or series of data. In general, an indicator occupies an exclusive area on a large screen, so by defining key indicators, we can know what content will be displayed on the large screen and how many blocks the screen will be divided into. Taking the shared bicycle electronic fence monitoring system as an example, the key indicators here include: enterprise parking time, enterprise parking violations, hot parking violation areas, vehicle entry rate, etc.
+
+
+
+
+After determining the key indicators, determine the priority (primary, secondary, and secondary) of each indicator display based on business needs.
+
 
 ![image-20211123083249691](../../img/guides/design/process/image-2.png)
 
-## 2、确立指标分析维度
 
-“横看成岭侧成峰”。同一个指标的数据，从不同维度分析就有不同结果。很多小伙伴做完可视化设计，发现可视化图形并没有准确表达自己的意图，也没能向观者传达出应有的信息，可视化图形让人困惑或看不懂。出现这种情况很大程度就是因为分析的维度没有找准或定义的比较混乱。
+## 2. Establish indicator analysis dimensions
+
+
+When viewed horizontally, there are peaks on the side of the mountain. The data of the same indicator will have different results when analyzed from different dimensions. Many children have completed visual design and found that the visual graphics do not accurately express their intentions or convey the necessary information to the audience. The visual graphics are confusing or incomprehensible. This situation is largely due to the lack of accurate dimensionality or confusion in the definition of the analysis.
+
 
 ![image-20211123083306749](../../img/guides/design/process/image-3.png)
 
-上图向大家展示了数据分析常用的4个维度，我们在选定指标后，就需要跟项目组其他小伙伴讨论：我们的各个指标主要想给大家展示什么，更进一步的讲，是我们想通过可视化表达什么样的规律和信息。而上图，可以引导我们从“联系、分布、比较、构成”四个维度更有逻辑的思考这个问题。
 
-**联系**：数据之间的相关性
+The above figure shows you the four commonly used dimensions for data analysis. After selecting the indicators, we need to discuss with other project team members what our indicators mainly want to show you. Furthermore, what rules and information we want to express through visualization. The above figure can guide us to think more logically about this issue from the four dimensions of "connection, distribution, comparison, and composition".
 
-**分布**：指标里的数据主要集中在什么范围、表现出怎样的规律
 
-**比较**：数据之间存在何种差异、差异主要体现在哪些方面
+**Connection * *: Correlation between data
 
-**构成**：指标里的数据都由哪几部分组成、每部分占比如何
 
-## 3、选定可视化图表类型
+**Distribution * *: What range and patterns are the data in the indicators mainly concentrated in
 
-当确定好分析维度后，事实上我们所能选用的图表类型也就基本确定了。接下来我们只需要从少数几个图表里筛选出最能体现我们设计意图的那个就好了。
 
-选定图表注意事项：易理解、可实现；
+**Comparison * *: What are the differences between data and what are the main aspects of the differences
 
-### 易理解
 
-可视化设计要考虑大屏最终用户，可视化结果应该是一看就懂，不需要思考和过度理解，因而选定图表时要理性，避免为了视觉上的效果而选择一些对用户不太友好的图形。
+**Composition * *: What are the components of the data in the indicator and what is the proportion of each component
+
+
+## 3. Select a visualization chart type
+
+
+After determining the analysis dimensions, in fact, the types of charts we can choose are basically determined. Next, we only need to select the one that best reflects our design intent from a few charts.
+
+
+Precautions for selecting charts: easy to understand and achievable;
+
+
+### Easy to understand
+
+Visualization design should consider the large screen end user, and the visualization results should be easy to understand without the need for thinking or excessive understanding. Therefore, when selecting charts, it is important to be rational and avoid selecting graphics that are not very user-friendly for visual effects.
+
 
 ![image-20211123083320430](../../img/guides/design/process/image-4.png)
 
-### 可实现
 
-1、我们需要了解现有数据的信息、规模、特征、联系等，然后评估数据是否能够支撑相应的可视化表现
-
-2、我们设计的图形图表，要开发能够实现。实际工作中，一些可视化效果开发用代码写很容易实现，效果也不错，但这些效果设计师用Ps/Ai/Ae这些工具模拟时会发现比较困难；同样的，某些效果设计师用设计工具可以轻易实现，但开发要用代码落地却非常困难，所以大屏设计中跟开发常沟通非常重要，我们需要明确哪些地方设计师可以尽情发挥，哪些地方需要谨慎设计！一个项目总有周期与预算限制，不会无限期的修改迭代，所以设计师在这里需要抓住重点，有取舍，不钻牛角尖、死磕不放。
-
-![image-20211123083333181](../../img/guides/design/process/image-5.png)
-
-## 4、了解物理大屏，确定设计稿尺寸
-
-**多数情况下设计稿分辨率即被投大屏的信号源电脑屏幕的分辨率。**有多个信号源时，就会有多个设计稿，此时每个设计稿的尺寸即对应信号源电脑屏幕的分辨率
-
-![image-20211123083343206](../../img/guides/design/process/image-6.png)
+### Realizable
 
 
+1. We need to understand the information, scale, characteristics, connections, etc. of existing data, and then evaluate whether the data can support the corresponding visual representation
 
-一般情况下设计稿的分辨率就是电脑的分辨率，**当有多个信号源时，有时会通过显卡自定义电脑屏幕分辨率，从而使电脑显示分辨率不等于其物理分辨率，此时，对应设计稿的分辨率也就变成了设置后的分辨率；**此外，当被投电脑分辨率长宽比与大屏物理长宽比不一致时（单信号源），也会对被投电脑屏幕分辨率做自定义调整，这种情况设计稿分辨率也会发生变化。所以设计开始前**了解物理大屏长宽比很重要。**
 
-## 5、页面布局、划分
+2. We need to develop a graphical chart that can be implemented. In practical work, some visual effects are easy to implement and have good results when developed in code, but designers may find it difficult to simulate these effects using tools such as Ps/Ai/Ae; Similarly, some effects can be easily achieved by designers using design tools, but it is very difficult to develop with code implementation. Therefore, it is important to communicate with developers in large screen design. We need to clarify which areas designers can fully utilize and which areas need to be carefully designed! A project always has cycle and budget constraints, and will not modify and iterate indefinitely. Therefore, designers need to focus on the key points, have trade-offs, and not be overly focused or stubborn.
 
-尺寸确立后，接下来要对设计稿进行布局和页面的划分。这里的划分，主要根据我们之前定好的业务指标进行，核心业务指标安排在中间位置、占较大面积；其余的指标按优先级依次在核心指标周围展开。一般把有关联的指标让其相邻或靠近，把图表类型相近的指标放一起，这样能减少观者认知上的负担并提高信息传递的效率。
+
+![image-2021112308333181](../../img/guides/design/process/image-5.png)
+
+
+## 4. Understand the physical screen and determine the size of the design draft
+
+
+**In most cases, the resolution of the design draft is the resolution of the signal source computer screen that is projected to the large screen** When there are multiple signal sources, there will be multiple design drafts, and the size of each design draft corresponds to the resolution of the signal source computer screen
+
+
+![image-202111230833432066](../../img/guides/design/process/image-6.png)
+
+
+
+
+In general, the resolution of the design draft is the resolution of the computer. When there are multiple signal sources, sometimes the computer screen resolution is customized through the graphics card, so that the computer display resolution is not equal to its physical resolution. In this case, the corresponding resolution of the design draft becomes the set resolution** In addition, when the aspect ratio of the resolution of the invested computer is inconsistent with the physical aspect ratio of the large screen (single signal source), custom adjustments will also be made to the screen resolution of the invested computer, and in this case, the design draft resolution will also change. So it is important to understand the physical aspect ratio of the large screen before the design starts**
+
+
+## 5. Page layout and partitioning 
+
+After the size is established, the next step is to layout and divide the design draft into pages. The division here is mainly based on the business indicators we have previously set, with core business indicators arranged in the middle and occupying a larger area; The remaining indicators are expanded around the core indicators in order of priority. Generally, related indicators are placed adjacent or close, and indicators with similar chart types are placed together to reduce the cognitive burden on viewers and improve the efficiency of information transmission.
+
 
 ![image-20211123083351845](../../img/guides/design/process/image-7.png)
 
-## 6、定义设计风格
 
-很多小伙伴也许没接触过大屏设计工作，但大多数人都应该有APP或者Web风格定义的经验。我们在定义一款APP或者Web页面设计风格时常用的方法是什么呢？**情绪版！**
+## 6. Define design style
 
-大屏虽酷炫，但实际上也是运行在浏览器里的Web页面，所以大屏设计风格定义方法也同样可以是用情绪版来做，这种方法也是目前比较科学高效的风格定义手段
+
+Many friends may not have been exposed to large screen design work, but most people should have experience defining app or web styles. What are the commonly used methods when defining an app or web page design style** Emotional version**
+
+
+Although the large screen is cool, it is actually a web page running in a browser. Therefore, the method for defining the design style of the large screen can also be done using the emotional version, which is currently a relatively scientific and efficient way to define the style
+
 
 ![image-20211123083402356](../../img/guides/design/process/image-8.png)
 
-上图提供了情绪版应用的脑图，具体操作细节不做介绍，不太了解的小伙伴可以自己找找资料哈。
 
-情绪版的一套流程下来，我们定义的风格基本是科学准确的，可以指导我们执行设计。如果是给甲方爸爸做大屏，这个流程也可以让我们提出的方案更有说服力
+The above image provides a brain map of the emotional version application. The specific operation details will not be introduced, and friends who are not familiar with it can search for information on their own.
 
-## 7、可视化设计
 
-根据定义好的设计风格与选定的图表类型进行合理的可视化设计。目前来讲大屏可视化主要有指标类信息点和地理类信息点两大可视化数据。指标类信息点可视化效果相对简单易实现，而地理类信息点一般可视化效果酷炫，但是开发相对困难，需要设计师跟开发多沟通的。地理类信息一般具有很强的空间感、丰富的粒子、流光等动效、高精度的模型和材质以及可交互实时演算等特点，所以对于被投电脑、大屏拼接器等硬件设备的性能会有要求，硬件配置不够的情况下可能出现卡顿甚至崩溃的情况，所以这点也是需要提前沟通评估的。
+From the emotional version of the process, the style we define is basically scientific and accurate, which can guide us in executing the design. If it is to create a large screen for the father of Party A, this process can also make our proposed plan more convincing
 
-## 8、样图沟通确认
 
-这里的沟通分三个层面：设计师对内沟通、设计师对外沟通、设计师与大屏的“沟通”。
+## 7. Visual design
+
+
+Conduct a reasonable visual design based on the defined design style and selected chart types. Currently, there are two main visualization data types for large screen visualization: indicator information points and geographic information points. The visualization effect of indicator information points is relatively simple and easy to achieve, while the visualization effect of geographic information points is generally cool, but development is relatively difficult, requiring designers to communicate with developers more. Geographic information generally has strong spatial sense, rich particle and streamer effects, high-precision models and materials, and interactive real-time calculations. Therefore, there are requirements for the performance of hardware devices such as projectors and large screen splicers. In the case of insufficient hardware configuration, there may be situations of stuttering or even crashing, so this also requires early communication and evaluation.
+
+
+## 8. Sample communication and confirmation
+
+The communication here is divided into three levels: internal communication among designers, external communication among designers, and "communication" between designers and large screens.
+
 
 ![image-20211123083419241](../../img/guides/design/process/image-9.png)
 
-样图沟通环节，最初的样图不需要十分精致，我们可以把它理解为一个“低保真”原型，然后通过不断沟通修改，让它逐步完善精致起来，也就是小步快跑，避免那种一下子走到终点，然后又大修大改的情况。
 
-因为我们在前几步已经分别确定了页面布局、图表类型、页面风格特点，所以这一步我们需要用尽可能简单的方法 ，把之前几步的成果在页面上快速体现出来，然后根据样图效果尝试确定五方面内容：
+In the communication process of the sample image, the initial sample image does not need to be very refined. We can understand it as a "low fidelity" prototype, and then through continuous communication and modification, gradually improve and refine it, that is, take small steps and run quickly to avoid the situation where we suddenly reach the end and then make major repairs and changes.
 
-**1、之前确立的布局在放入设计内容后是否依然合适**
 
-**2、确立的图表类型带入数据后是否仍然客观准确**
+Because we have already determined the page layout, chart type, and page style characteristics in the previous steps, we need to use as simple a method as possible to quickly reflect the results of the previous steps on the page, and then try to determine five aspects based on the sample image effect:
 
-**3、根据关键元素、色彩、结构、质感打造出的页面风格是否基本传达出了预期的氛围和感受**
 
-**4、已有的样式、数据内容、动效等在开发实现方面是否存在问题**
+**1. Is the previously established layout still suitable after incorporating the design content**
 
-**5、大屏是否存在色差、文字内容是否清晰可见、页面是否存在变形拉伸等现象**
 
-**跟大屏“沟通”是比较重要也是个特殊的环节**，这也是我觉得大屏设计跟其它设计不一样的地方，大屏有它自己独特的分辨率、屏幕组成、色彩显示以及运行、展示环境，这里的很多问题只有设计稿投到大屏上才能够被发现，所以这一步在样图沟通确认环节非常重要，有时候需要开发出demo，反复测试多次。
+**2. Is the established chart type still objective and accurate when brought into the data**
 
-## 9、页面定稿、开发
 
-事实上页面开发阶段并不是到了这一步才进行，这里说的页面开发仅指前端样式的实现，实际上后台数据准备工作在定义好分析指标后就已经开始进行了，而我们当前的工作是把数据接入到前端，然后用设计的样式呈现出来。
+**3. Does the page style created based on key elements, colors, structure, and texture convey the expected atmosphere and feeling**
+
+
+**4. Are there any issues with the development and implementation of existing styles, data content, and dynamic effects**
+
+
+**5. Whether there is color difference on the large screen, whether the text content is clear and visible, and whether the page is deformed or stretched**
+
+
+**Communicating with a large screen is both an important and a special aspect**, which is why I think the design of a large screen is different from other designs. A large screen has its own unique resolution, screen composition, color display, and operation and display environment. Many problems here can only be discovered when the design draft is submitted to the large screen. Therefore, this step is very important in the sample communication and confirmation process, and sometimes it is necessary to develop a demo, Repeated testing multiple times.
+
+
+## 9. Page finalization and development
+
+
+In fact, the page development stage is not at this stage. The page development mentioned here only refers to the implementation of the front-end style. In fact, the backend data preparation work has already started after defining the analysis indicators. Our current work is to connect the data to the front-end and present it in the designed style.
 
 ![image-20211123083435061](../../img/guides/design/process/image-10.png)
 
-**切图与标注**
+**Cutting and labeling**
 
-由于大屏实际就是一个web页面，所以开发阶段的切图与标注是少不了的。
 
-**切图：哪些元素需要切图，怎么切？**
+Due to the fact that a large screen is actually a web page, cutting and annotation during the development phase are essential.
 
-一般开发用代码写不出的样式或动效，都需要设计师切图作支持：比如数据容器的边框、小的动效、页面整体大背景、部分图标等。切图按正常网页设计标准切就可以了。
 
-**标注**
+**Cut: Which elements need to be cut and how**
 
-Web页面用什么插件做标注这个大家都很熟悉，我就不多说了。需要注意的是，如果大屏页面需要在不同比例的终端展示，那么此时的标注与开发可以使用**rem**作为基本单位来实现，这样实现的大屏页面在后期会有更好的扩展性与适应性。
 
-## 10、整体细节调优与测试
+Generally, styles or animations that cannot be written using code for development require support from designers, such as data container borders, small animations, overall page backgrounds, and partial icons. Cut the image according to normal webpage design standards.
 
-这部分是指页面开发完成后，将真实页面投放到大屏进行的测试与优化。这里主要有两部分工作。
 
-**视觉方面的测试**（有点像APP的UI走查）：关键视觉元素、字体字号、页面动效、图形图表等是否按预期显示、有无变形、错位等情况。
+**Annotation**
 
-**性能与数据方面的测试**：图形图表动画是否流畅、数据加载、刷新有无异常；页面长时间展示是否存在奔溃、卡死等情况；后台控制系统能否正常切换前端页面显示。
+
+Everyone is familiar with what plugins to use for annotation on web pages, so I won't go into more detail. It should be noted that if the large screen page needs to be displayed on different proportions of terminals, the annotation and development at this time can be achieved using * * rem * * as the basic unit, which will result in better scalability and adaptability of the large screen page in the later stage.
+
+
+## 10. Overall details tuning and testing
+
+
+This section refers to the testing and optimization of placing real pages on a large screen after page development is completed. There are mainly two parts of work here.
+
+
+**Visual testing** (somewhat similar to the UI walkthrough of an app): whether key visual elements, font size, page dynamics, graphic charts, etc. are displayed as expected, and whether there are any deformation, misalignment, etc.
+
+
+**Performance and data testing**: Check whether the graphics, charts, and animations are smooth, and whether there are any abnormalities in data loading and refreshing; The page displays for a long time whether there are situations such as crashing or getting stuck; Can the backend control system switch to front-end page display normally.
 
 
 

@@ -2,15 +2,15 @@
 home: true
 heroText: Deutsch lernen
 tagline:  A1 A2 B1
-actionText: Getting Start →
+actionText: Erste Schritte →
 actionLink: /de/A1/
 features:
 - title: A1
-  details: Kaffee oder Tee?
+  details: Kaffee oder Tee?Sprache im Kurs. Städte - Länder - Sprachen. Menschen und Häuser. Termine. Orientierung. Berufe. Berlin sehen
 - title: A2 
-  details: Leben und lernen in Europa
+  details: Leben und lernen in Europa. Familiengeschichten. Unterwegs. Freizeit und Hobbys. Medien im Alltag
 - title: B1
-  details: Metropolen in Deutschland
+  details: Modalverb u. Infinitiv. Metropolen in Deutschland. Arbeitsstress. Leben in einer Großtadt. Ich liebe dich. Gleichberechtigung
   
 footer:  2021-2024 Powered by Li Rui
 ---

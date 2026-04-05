@@ -1,6 +1,7 @@
-# 组件文档
+# Component Documentation
 
-## 组件安装
+
+## Install Component
 ```js
 cnpm i -S echarts@^4.9.0
 cnpm i -S lodash
@@ -8,19 +9,19 @@ cnpm i -S uuid
 cnpm i -S echarts-gl@^1.1.2
 ```
 
-## 头部组件
+## Header Component
 TopHeader头部组件
 ```js
 <top-header 
-   zhName="南天政企业务数据大盘"
-   enName="Nantian Government Administration of Business Data"
+   zhName="政企业务数据大盘"
+   enName="Government Administration of Business Data"
 />
 ```
-### 参数
-**zhName** 标题， 类型 String 默认值：'南天政企业务数据大盘'
-**enName** 子标题，类型 String 默认值：'Nantian Government Administration of Business Data'
+### Parameter
+**zhName** title， Type String Default：'政企业务数据大盘'
+**enName** sub title，Type String Default：'Government Administration of Business Data'
 
-引用
+Reference
 ```js
   import TopHeader from '@/components/TopHeader/index.vue'
 
@@ -29,81 +30,82 @@ TopHeader头部组件
   }
 ```
 
-## 地图组件（geo）
-地理坐标系组件用于地图的绘制，支持在地理坐标系上绘制散点图，线集。[官网](https://echarts.apache.org/zh/option.html#geo)
+## Map Component（geo）
 
-组件：KunmingMap
-### 参数
+
+The geographic coordinate system component is used for map drawing, supporting the drawing of scatter plots and line sets on the geographic coordinate system.
+[official website](https://echarts.apache.org/zh/option.html#geo)
+
+Component：KunmingMap
+### Parameter
 ::: details
 ```js
-/** 与地区相关的指标：人口数、或者地区能耗、或者地区投资金额、   */
+/** Indicators related to the region: population, regional energy consumption, or regional investment amount   */
 const d1 = {
-  '东川区': 114.4,
-  '嵩明县': 99.6,
-  '西山区': 96.6,
-  '官渡区': 161.1,
-  '呈贡区': 65.1
+  'DongChuanArea': 114.4,
+  'SongmingArea': 99.6,
+  'XiShanArea': 96.6,
+  'GuanduArea': 161.1,
+  'ChenggongArea': 65.1
 }
-/** 两个地区的关联：从A地区到B地区的旅游， 从A地区到B地区的投资，从A地区到B地区的数据 */
+/** The correlation between two regions: tourism from region A to region B, investment from region A to region B, and data from region A to region B */
 const travel = [{
-    from: '东川区',
-    to: '嵩明县',
+    from: 'DongChuanArea',
+    to: 'SongmingArea',
     value: 0.1
   },
   {
-    from: '东川区',
-    to: '呈贡区',
+    from: 'DongChuanArea',
+    to: 'ChenggongArea',
     value: 0.05
   },
   {
-    from: '东川区',
-    to: '呈贡区',
+    from: 'SongmingArea',
+    to: 'ChenggongArea',
     value: 0.2
   }, {
-    from: '呈贡区',
-    to: '嵩明县',
+    from: 'SongmingArea',
+    to: 'SongmingArea',
     value: 0.2
   },
   {
-    from: '呈贡区',
+    from: 'SongmingArea',
     to: '富民县',
     value: 2
   },
   {
-    from: '呈贡区',
+    from: 'SongmingArea',
     to: '宜良县',
     value: 0.2
   },
   {
-    from: '呈贡区',
+    from: 'SongmingArea',
     to: '石林彝族自治县',
     value: 0.2
   },
   {
-    from: '呈贡区',
+    from: 'SongmingArea',
     to: '晋宁区',
     value: 0.2
   },
   {
-    from: '呈贡区',
+    from: 'SongmingArea',
     to: '禄劝彝族苗族自治县',
     value: 0.2
   }]
 ```
 :::
 
-* 业务场景
-标题
 
+## Map Component（map）
+Maps are mainly used for visualizing geographic area data, and in conjunction with the VisualMap component, they are used to display data such as population distribution density in different regions
+[official website](https://echarts.apache.org/zh/option.html#series-map)
 
-## 地图组件（map）
-地图主要用于地理区域数据的可视化，配合 visualMap 组件用于展示不同区域的人口分布密度等数据，[官网](https://echarts.apache.org/zh/option.html#series-map)
-
-组件：YunnanMapWarning
-### 参数
+Component：YunnanMapWarning
+### Parameter
 ::: details
 ```js
-/** 全省人口数 */
+/** Population of the province */
 const d1 = {
   '昆明市': 850.2,
   '曲靖市': 570.1,
@@ -123,7 +125,7 @@ const d1 = {
   '迪庆藏族自治州': 38.9
 }
 
-/** 全省警告明细  */
+/** Provincial warning details  */
 const notice1 = [{
     city: '昆明市',
     event: '星期一放假'
@@ -136,7 +138,7 @@ const notice1 = [{
     city: '玉溪市',
     event: '星期三放假'
   }]
-/** 全省重大明细  */
+/** Major details of the province  */
 const notice2 = [{
   city: '保山市',
   event: '星期四不放假'
@@ -149,7 +151,7 @@ const notice2 = [{
     city: '丽江市',
     event: '星期六不放假'
   }]
-/** 全省严重明细 */
+/** Serious details throughout the province */
 const notice3 = [{
   city: '普洱市',
   event: '星期天休息'
@@ -159,7 +161,7 @@ const notice3 = [{
     event: '星期一休息'
   }]
 
-/** 全市旅游情况  */
+/** Tourism situation in the city */
 const travel = [{
     name: 'travel1',
     from: '东川区',
@@ -216,61 +218,70 @@ const travel = [{
 ```
 :::
 
-* 业务场景
-1. [带3D阴影的色块地图](https://admin.lihengrui.cn/map)
+* Business Scenario
+
+1. [Color block map with 3D shadows](https://admin.lihengrui.cn/map)
 <iframe 
   src="https://admin.lihengrui.cn/map"
   width="100%"
   height="300"
 />
-带3D阴影的地图，用颜色表示地区维度（人口、能耗、产值、投资额、债务等）；黄、蓝、红滚动弹窗表示事件（数据上报异常、安全生产事故、各地能耗超标情况等）
-色块2D地图
 
-2. [3D地图](https://admin.lihengrui.cn/map3)
+A map with 3D shading, using colors to represent regional dimensions (population, energy consumption, output value, investment, debt, etc.); Yellow, blue, and red scrolling pop-up windows indicate events (abnormal data reporting, safety production accidents, energy consumption exceeding standards in various regions, etc.)Color Block 2D Map
+
+
+2. [3D map](https://admin.lihengrui.cn/map3)
 <iframe 
   src="https://admin.lihengrui.cn/map3"
   width="100%"
   height="300"
 />
-纯色3D地图，可以贴纹理
+Solid color 3D map that can be textured
 
-3. [2D散点、飞线地图](https://admin.lihengrui.cn/kmmap)
+3. [2D Scatter, Flyline Map](https://admin.lihengrui.cn/kmmap)
 <iframe 
   src="https://admin.lihengrui.cn/kmmap"
   width="100%"
   height="300"
 />
-2D标点、飞线地图，用标点大小、位置、颜色表示坐标维度（人口、能耗、产值、投资额、债务等）；用飞线表示两个位置的关系（投资来源、旅游、人口流动等）
-面积色变化2D地图
 
-4. [3D色块地图](https://admin.lihengrui.cn/map32)
+2D punctuation and flyline maps, using punctuation size, location, and color to represent coordinate dimensions (population, energy consumption, output value, investment, debt, etc.); Use flying lines to represent the relationship between two locations (investment sources, tourism, population mobility, etc.)
+2D Map of Area Color Change
+
+4. [3D color block map](https://admin.lihengrui.cn/map32)
 <iframe 
   src="https://admin.lihengrui.cn/map32"
   width="100%"
   height="300"
 />
-用颜色表示地区维度（人口、能耗、产值、投资额、债务等）
-色块3D地图
+Using colors to represent regional dimensions (population, energy consumption, output value, investment, debt, etc.)
 
-5. [3D气泡地图](https://admin.lihengrui.cn/map32e)
+Color Block 3D Map
+
+5. [3D Bubble Map](https://admin.lihengrui.cn/map32e)
 <iframe 
   src="https://admin.lihengrui.cn/map32e"
   width="100%"
   height="300"
 />
-黄、蓝、红滚动弹窗表示事件（数据上报异常、安全生产事故、各地能耗超标情况等）
-纯色3D地图
+Yellow, blue, and red scrolling pop-up windows indicate events (abnormal data reporting, safety production accidents, energy consumption exceeding standards in various regions, etc.)
 
-6. [3D散点、飞线地图](https://admin.lihengrui.cn/kmmap3d)
+Solid 3D Map
+
+6. [3D Scatter and Flyline Maps](https://admin.lihengrui.cn/kmmap3d)
 <iframe 
   src="https://admin.lihengrui.cn/kmmap3d"
   width="100%"
   height="300"
 />
-用标点大小、位置、颜色表示坐标维度（人口、能耗、产值、投资额、债务等）；用飞线表示两个位置的关系（投资来源、旅游、人口流动等）
-纯色3D地图
 
-7. [旋转地球](https://admin.lihengrui.cn/earth)
+
+Use punctuation size, position, and color to represent coordinate dimensions (population, energy consumption, output value, investment amount, debt, etc.); Use flying lines to represent the relationship between two locations (investment sources, tourism, population mobility, etc.)
+
+Solid 3D Map
+
+
+7. [Rotating Earth](https://admin.lihengrui.cn/earth)
 <iframe 
   src="https://admin.lihengrui.cn/earth"
   width="100%"
@@ -283,58 +294,76 @@ const travel = [{
 />
 
 
-## TimeLine组件
-[TimeLine大盘](https://admin.lihengrui.cn/gdp)
-历史数据多维度展示
+## TimeLine Component
+[TimeLine Screen](https://admin.lihengrui.cn/gdp)
+Multidimensional display of historical data
 
-* 业务场景（时间维度）
+
+* Business scenario (time dimension)
+
 <iframe 
   src="https://admin.lihengrui.cn/gdp"
   width="100%"
   height="300"
 />
-历年来全省综合能耗展示（分类：煤、电、气、其他）
-历年来全市投资展示（分类：第一产业、第二产业、第三产业；外资、市外、市内；房地产、旅游、鲜花、其他）
-历年来全省国资展示（分类：财务预算、财务决算、投资额、债务额、产权登记，产权交易）
+Display of comprehensive energy consumption in the province over the years (classification: coal, electricity, gas, others)
 
-* 业务场景（地区维度）
+Investment exhibitions throughout the city over the years (classification: primary industry, secondary industry, tertiary industry; foreign investment, outside the city, within the city; real estate, tourism, flowers, others)
+
+Over the years, state-owned assets throughout the province have been displayed (classified as financial budget, financial final accounts, investment amount, debt amount, property rights registration, and property rights transactions)
+
+* Business scenario (regional dimension)
+
 <iframe 
   src="https://admin.lihengrui.cn/order"
   width="100%"
   height="300"
 />
-历年来全国地区销售情况（分类：销售金额，两地关联）
 
-## 日历组件
+
+Sales situation across the country and regions over the years (classification: sales amount, correlation between two regions)
+
+
+## Calendar Component
+
 <iframe 
   src="https://admin.lihengrui.cn/sv"
   width="100%"
   height="300"
 />
-* 业务场景（时间维度）
-一段时间周期内，每天的综合能耗，电力单耗等
+* Business scenario (time dimension)
 
-## 水球图
-[参考](https://github.com/ecomfe/echarts-liquidfill)
+Daily comprehensive energy consumption, electricity consumption, etc. during a period of time
+
+
+## Water sphere diagram
+
+[Reference](https://github.com/ecomfe/echarts-liquidfill)
 <iframe 
   src="https://admin.lihengrui.cn/lf"
   width="100%"
   height="300"
 />
-* 业务场景
-任务完成情况
-告警情况
+* Business Scenario
 
-## 词云图
-[参考](https://github.com/ecomfe/echarts-wordcloud)
+Task completion status
+
+Alarm situation
+
+
+## Word Cloud diagram
+[Reference](https://github.com/ecomfe/echarts-wordcloud)
 <iframe 
   src="https://admin.lihengrui.cn/wc"
   width="100%"
   height="300"
 />
-* 业务场景
-搜索关键词
-舆情情况
+* Business Scenario
+
+Search keywords
+
+Public opinion situation
+
 
 
 

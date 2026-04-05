@@ -1,58 +1,59 @@
 # numpy
 
-* N维数组(矩阵),快速高效，矢量数学运算
-* 高效的Index,不需要循环
-* 开源免费跨平台，运行效率足以和C/Matlab媲美
+* N-dimensional array (matrix), fast and efficient, vector mathematical operations
 
-*官网
+* Efficient Index without Loop
+
+* Open source, free cross platform, with running efficiency comparable to C/Matlab
+
+*WebSite
 https://numpy.org/doc/stable/user/index.html
-## 数组的创建和访问
+## Creating and accessing arrays
 ### create Array from Python list
 ```dtd
 import numpy as np
 list_1 = [1, 2, 3, 4]
-array_1 = np.array(list_1)   # 一维数组
+array_1 = np.array(list_1)   # one-dimensional array
 
 list_2 = [5, 6, 7, 8]
-array_2 = np.array([list_1, list_2])  # 二维数组
+array_2 = np.array([list_1, list_2])  # two-dimensional array
 
-array_3=np.arange(1,10) #创建1到10的数组
-array_4=np.arange(1,10,2) #创建1到10的数组，间隔2
-array_5=np.zeros(5)             #创建5个为0的数组
-array_6=np.zeros([2,3])       #创建2*3个为0的数组
-array_7=np.eye(5)                #创建5*5的单位矩阵
+array_3=np.arange(1,10) # Create arrays from 1 to 10
+array_4=np.arange(1,10,2) # Create an array from 1 to 10 with step 2
+array_5=np.zeros(5)             # Create 5 arrays of 0
+array_6=np.zeros([2,3])       # Create 2 * 3 arrays with 0
+array_7=np.eye(5)                # Create a 5 * 5 identity matrix
 
-array_2.shape  # 数组的维度
-array_2.size     # 数组元素的个数
-array_2.dtype  #数组元素的数据类型
+array_2.shape  # Dimensions of arrays
+array_2.size     # The number of array elements
+array_2.dtype  # The number of array elements
 
-array_3[1]  #访问第1个元素
-array_3[2:4]  #访问第2到3个元素
+array_3[1]  # Accessing the first element
+array_3[2:4]  # Accessing 2,3,4 element
 
-array_2[1,2]  #访问第1行，第2个元素
-array_2[1][2]  #访问第1行，第2个元素
+array_2[1,2]  # Access the first line, second element
+array_2[1][2]  # Access the first line, second element
 
 array_7=np.array([[1,2,3],[4,5,6],[7,8,9]])
-#切片
-array_8[:2,1:]     #从第0行到第2行，从第1列到最后一列
- ```
-## Array与Matrix
-```
+#section
+array_8[:2,1:]     # From line 0 to line 2, from column 1 to the last column
+
+Array And Matrix
 import numpy as np
-np.random.randn(10)  #创建一个10个元素的1维数组
+np.random.randn(10)  # Create a 1-dimensional array of 10 elements
 
-np.random.randint(10) # 创建一个10以内的数据整数
+np.random.randint(10) # Create a data integer up to 10
 
-np.random.randint(10,size=10) # 创建一个10以内的10个元素的一维的整数数组
+np.random.randint(10,size=10) # Create a one-dimensional integer array of up to 10 elements
 
-np.random.randint(10,size=(2,3)) # 创建一个10以内的2*3的二维的整数数组
+np.random.randint(10,size=(2,3)) # Create a 2D integer array of 2 * 3 within 10
 
-np.random.randint(10,size=20).reshape(4,5)  # 创建一个10以内的20个元素的一维的整数数组,转化为4*5的二维数组
+np.random.randint(10,size=20).reshape(4,5)  # Create a one-dimensional integer array of 20 elements within 10, and convert it to a 2D array of 4 * 5
 
 
 ```
 
-### 数组的运算
+### Operation of arrays
 ```dtd
 a=np.random.randint(10,size=20).reshape(4,5)
 b=np.random.randint(10,size=20).reshape(4,5)
@@ -63,13 +64,13 @@ a/b
 ```
 
 
-### matrix
+## Array and matrix
 ```dtd
 np.mat([[1,2,3],[4,5,6]])
-np.mat(a)                      #通过二维数组创建
+np.mat(a)                      # Create through a two-dimensional array
 ```
 
-### 矩阵的运算
+### matrix operations
 ```dtd
 A = np.mat(a)
 B = np.mat(b)
@@ -81,21 +82,22 @@ B1=np.mat(np.random.randint(10,size=20).reshape(4,5))
 A1*B1
 ```
 
-### Array 的 function
+## Array's function
 ```
 a=np.random.randint(10,size=20).reshape(4,5)
 a
-np.unique(a)  #计算a中唯一的元素
-sum(a)  #计算每一列的元素和
-sum(a[0]) #计算第一行的元素和
-sum(a[:,0]) #从上到下计算第一列的元素和
-a.max() #计算a中的最大值
-max(a[0]) #计算a中第一行的最大值
-max(a[:,0]) #从上到下计算第一列的元素最大值
+np.unique(a)  # Calculate the unique element in a
+sum(a)  # Calculate the sum of elements for each column
+sum(a[0]) # Calculate the sum of elements in the first row
+sum(a[:,0]) # Calculate the sum of elements in the first column from top to bottom
+a.max() # Calculate the maximum value in a
+max(a[0]) # Calculate the maximum value of the first row in a
+max(a[:,0]) # Calculate the maximum value of the element in the first column from top to bottom
 ```
-## Array 的input和output操作
+
+## Array input And output
 ```
-# 使用pickle序列化numpy array
+# Serializing numpy arrays using pickle
 import pickle
 import numpy as np
 x = np.arange(10)
@@ -118,9 +120,8 @@ c=np.load('two_array.npz')
 c['a']
 c['b']
 ```
-
-# 附录
-## 数组的创建和访问(附录)
+# Refer
+## Creating and accessing arrays (refer)
 ```python
 import numpy as np
 list_1 = [1, 2, 3, 4]
@@ -369,7 +370,7 @@ array_7=np.eye(5)
 ```python
 
 ```
-## Array与Matrix(附录)
+## Array and Matrix(refer)
 ```python
 import numpy as np
 ```
@@ -863,7 +864,7 @@ max(a2[:,0]) #从上到下计算第一列的元素最大值
 ```python
 
 ```
-## Array 的input和output操作(附录)
+## Array's input & output(refer)
 ```python
 # 使用pickle序列化numpy array
 import pickle

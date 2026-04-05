@@ -2,10 +2,11 @@
 sidebar: auto
 ---
 
-# 案例
+# case
 
-[//]: # (## 南天云)
+[//]: # (## HLM)
 
+[//]: # ()
 [//]: # ()
 [//]: # (<iframe )
 
@@ -17,7 +18,7 @@ sidebar: auto
 
 [//]: # (/>)
 
-## 智慧城市
+## Smart City
 
 <iframe 
   src="https://xxg.lihengrui.cn"
@@ -25,8 +26,9 @@ sidebar: auto
   height="600"
 />
 
-[//]: # (## 智慧运营)
+[//]: # (## Smart Operations)
 
+[//]: # ()
 [//]: # ()
 [//]: # (<iframe )
 
@@ -38,7 +40,7 @@ sidebar: auto
 
 [//]: # (/>)
 
-[//]: # (## 南天全栈云)
+[//]: # (## Cloud)
 
 [//]: # ()
 [//]: # (<iframe )

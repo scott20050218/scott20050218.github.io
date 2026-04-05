@@ -1,44 +1,65 @@
 # Q&A
 
-## 1、设计稿投到大屏上显示效果不佳怎么办？
 
-大屏的分辨率、比例、使用环境、投射方式等均会对设计造成影响。理想情况下，我们应该在设计开始前，就能打开大屏系统做一些简单测试。我们可以从网上收集不同设计师不同风格的大屏设计作品，然后投上去查看实际效果。因为大多数时候大屏都会存在色彩偏差，这时通过测试我们就能发现渐变色、邻近色等不同类型的色彩搭配是否可以在目标大屏上良好呈现，如果不可以，那我们设计进行时就不要使用显示效果不佳的色彩搭配。另一方面，样图沟通环节及时测试也很重要。
+## 1. What should I do if the design draft is not displayed well on the large screen?
 
-## 2、大屏设计定稿后，切图切几倍图？
 
-由于是将我们电脑屏幕投射到了大屏，大屏上的内容是运行在我们电脑浏览器上的页面。所以切图根据我们电脑的分辨率，正常切1倍图就可以
+The resolution, proportion, usage environment, and projection method of the large screen can all have an impact on the design. Ideally, we should be able to open the large screen system for some simple testing before the design starts. We can collect large screen design works from different designers with different styles online, and then submit them to see the actual effects. Because most of the time there is color deviation on large screens, through testing, we can determine whether different types of color combinations such as gradient colors and adjacent colors can be well presented on the target large screen. If not, we should not use color combinations with poor display performance when designing. On the other hand, timely testing of the sample communication process is also important.
 
-## 3、1920\*1080的设计稿，投到9000\*4320的屏幕上，文字图片会发虚么？
 
-看情况，视大屏系统硬件规格与观看距离来定。这块有四个概念需要跟大家交流下。
+## 2. After finalizing the large screen design, how many times will the cut image be cut?
 
-大屏逻辑分辨率（设计稿尺寸）——显卡输出分辨率——视频矩阵切换器（DVI）支持分辨率——大屏实际物理分辨率。
 
-一般后两个是没问题的，大屏跟矩阵切换器是由大屏厂商提供，一般刚好配套大屏。容易问题的是显卡输出分辨率，我们电脑屏幕分辨率并不是最终显卡传递到DVI接口的分辨率，传递到DVI接口的分辨率是电脑显卡所能输出的最大分辨率（部分电脑可设置或自定义输出分辨率）。输出分辨率等于DVI支持分辨率时显示效果最佳。输出分辨率低于DVI支持分辨率，DVI会将信号放大后传递到大屏，放大的过程中就有图像信息丢失，虽然此过程中有各种算法支持去保证图像尽可能清晰，但算法再好，跟真实图形还是有差距的。此外，多信号源投射效果优于单个信号源投射。对于现场直播数据大屏，一般至少有两个信号源，一个投屏，另一个也投屏但是处于备用状态。
+Due to the projection of our computer screen onto a large screen, the content on the large screen is a page running on our computer browser. So according to the resolution of our computer, we can cut the image twice as much as usual
 
-离大屏的距离也影响观感，一般离得近，颗粒感明显，距离稍远，会显的较为清晰
 
-## 4、设计稿完成开发后，发现在大屏上页面有被拉伸或者压缩的情况，怎么补救？
+## 3. Will the 1920 * 1080 design draft become blurred when submitted to the 9000 * 4320 screen?
 
-一般来讲，开发只需要对设计图做还原即可。但特殊情况下，比如显示器扩展不正确导致页面被拉伸或压缩，这时就需做处理：我们可以先得到被拉伸/压缩的比例，然后对整体视图做压缩/拉伸处理，再由其拉伸/压缩，这样被拉伸/压缩的瑕疵就可以得到一定程度上的矫正。另外，了解被投电脑硬件特点，有的电脑可以通过自定义分辨率解决这部分问题。
 
-## 5、除自行开发可视化大屏外，还可以通过哪些第三方服务来快速实现？
+Depending on the situation, it depends on the hardware specifications and viewing distance of the large screen system. There are four concepts that need to be discussed with everyone.
 
-阿里云DataV、腾讯云图、百度Sugar等
 
-## 6、数据可视化的图表样式可以在那些地方找到参考？
+Large screen logical resolution (design draft size) - graphics card output resolution - video matrix switcher (DVI) support resolution - actual physical resolution of the large screen.
 
-图表部分的二个库是我们设计师可以打开浏览产看的，这里面所有的图表样式都是基于代码实现的，可以作为我们设计图表的参考，也可以让开发拿代码去用，或者在这些图表的基础修改。
 
-工具类的需要有一定的代码基础，里面同样有丰富的图表，所以跟开发的沟通也很重要，因为他们可能会了解多一些更新的前沿的图表形式是我们设计师不知道的，所以彼此多沟通交流是在太重要了。
+Generally, the last two are not a problem. The large screen and matrix switch are provided by the large screen manufacturer, and usually they just match the large screen. The easy issue is the output resolution of the graphics card. The screen resolution of our computer is not the final resolution that the graphics card passes to the DVI interface. The resolution passed to the DVI interface is the maximum resolution that the computer graphics card can output (some computers can set or customize the output resolution). The display effect is best when the output resolution is equal to the DVI support resolution. The output resolution is lower than the resolution supported by DVI, and DVI will amplify the signal and transmit it to the large screen. During the amplification process, there may be loss of image information. Although there are various algorithms to ensure the image is as clear as possible during this process, even if the algorithm is good, there is still a gap between it and the real graphics. In addition, the projection effect of multiple signal sources is better than that of a single signal source. For live streaming data screens, there are generally at least two signal sources, one for screen projection and the other for screen projection but in standby mode.
 
-## 创建vite工程
+
+The distance from the large screen also affects the appearance. Generally, close proximity results in a clear graininess, while slightly farther distance results in a clearer appearance
+
+
+## 4. After completing the development of the design draft, if it is found that the page is stretched or compressed on the large screen, how can we remedy it?
+
+Generally speaking, development only needs to restore the design drawings. But in special cases, such as when the display is not properly expanded, resulting in the page being stretched or compressed, it is necessary to take measures: we can first obtain the proportion of the stretched/compressed, then compress/stretch the overall view, and then stretch/compress it, so that the stretched/compressed defects can be corrected to a certain extent. In addition, to understand the hardware characteristics of the invested computer, some computers can solve this problem by customizing the resolution.
+
+
+## 5. In addition to self-developed visualization screens, what third-party services can be used to quickly achieve this?
+
+
+Alibaba Cloud DataV, Tencent Cloud Map, Baidu Sugar, etc
+
+
+## 6. Where can I find references for chart styles for data visualization?
+
+
+The two libraries in the chart section are available for designers to browse and view. All chart styles in these libraries are implemented based on code and can be used as a reference for designing charts. Developers can also use the code or modify them based on these charts.
+
+
+The tool class needs to have a certain code foundation, and there are also rich charts inside, so communication with developers is also important because they may understand more about the cutting-edge chart forms that our designers are not aware of. Therefore, it is too important to communicate with each other more.
+
+
+## 7. Create vite project
+
 npm init vite@latest
+
 npm install @tweenjs/tween.js
+
 npm install three
 
 
-## 创建vue3工程
+
+## 8. Creating a Vue3 project
+
 npm init vue@latest
 
 

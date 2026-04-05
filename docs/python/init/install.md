@@ -1,8 +1,7 @@
-# anaconda安装
+# anaconda install
 * Download anaconda
-
-[Anaconda 地址](https://www.anaconda.com/download)
-[Anaconda 云平台](https://www.anaconda.com/code-in-the-cloud?utm_source=installer)
+  [Anaconda](https://www.anaconda.com/download)
+  [Anaconda tools](https://www.anaconda.com/code-in-the-cloud?utm_source=installer)
 
 
 * ./conda --version  
@@ -15,7 +14,7 @@
 ## remote login
 * ssh -i /Users/xxx/software/keys/xxx.pem -N -f -L localhost:8888:localhost:8888 root@domain
 
-# 参考
+# Refer
 * https://numpy.org/doc/stable/user/index.html
 * https://pandas.pydata.org/docs/getting_started/index.html
 * https://www.kaggle.com/discussions

@@ -1,25 +1,43 @@
-# 基础概念
-
-## 1、什么是数据可视化
-
-把相对复杂、抽象的数据通过可视的方式以人们更易理解的形式展示出来的一系列手段叫做数据可视化，数据可视化是为了更形象地表达数据内在的信息和规律，促进数据信息的传播和应用。
-
-在当前新技术支持下，数据可视化除了“可视”，还可有可交流、可互动的特点。<font color='orange'>**数据可视化的本质是数据空间到图形空间的映射，是抽象数据的具象表达。**</font>
-
-## 2、什么是大屏数据可视化
-
-大屏数据可视化是以大屏为主要展示载体的数据可视化设计。
-
-“大面积、炫酷动效、丰富色彩”，大屏易在观感上给人留下震撼印象，便于营造某些独特氛围、打造仪式感。电商双11类大屏利用此特点打造了热烈、狂欢的节日氛围，原本看不见的数据可视化后，便能调动人的情绪、引发人的共鸣，传递企业文化和价值。
+# Basic concepts
 
 
 
-利用面积大、可展示信息多的特点，通过关键信息大屏共享的方式可方便团队讨论、决策，故大屏也常用来做数据分析监测使用。大屏数据可视化目前主要有信息展示、数据分析及监控预警三大类。
-
-## 3、数据可视化的发展
-在获得计算机图形学发展后，先后经历了科学可视化、信息可视化和数据可视化三个阶段，最初由科研人员提出科学建模和数据的可视化需求，在进入 20 世纪 90 年代后，出现大量单机数据可视化需求，EXCEL 是这个时期的代表，互联网时代各种产品兴起，大数据爆发式增长，促使数据可视化技术飞速发展
-
-## 4、数据大屏的表达
-大屏是通过数据和图表的展示，来反映业务和管理，比如能耗的大屏主题应该是：碳达峰，碳中和，反应与预测什么时候碳达峰，峰值有多高，各行业，各地区达峰情况；国资监管的大屏应该是：表达国有资产监管的合法合规，保值增值，反应所属行政管理的投资情况，投资强度，财务预算，财务决算情况，债务风险情况，产权登记、交易情况，国资企业画像，对政策的执行，企业项目审批，领导人监管，三重一大等各个方方面面的监管
+## 1. What is data visualization
 
 
+
+The series of methods used to present relatively complex and abstract data in a more understandable form through visual means is called data visualization. Data visualization aims to more vividly express the inherent information and laws of data, and promote the dissemination and application of data information.
+
+
+
+With the support of current new technologies, data visualization can not only be "visual", but also have the characteristics of being communicative and interactive <font color='orange'>The essence of data visualization is the mapping from data space to graphic space, which is a concrete expression of abstract data  </font>
+
+
+
+## 2. What is Big Screen Data Visualization
+
+
+
+Big screen data visualization is a data visualization design that uses large screens as the main display medium.
+
+
+
+Large area, cool dynamic effects, and rich colors, the large screen is easy to leave a shocking impression on the appearance, creating a unique atmosphere and creating a sense of ceremony. The dual 11 categories of e-commerce screens utilize this feature to create a warm and festive atmosphere. Once invisible data is visualized, it can mobilize people's emotions, evoke resonance, and convey corporate culture and values.
+
+
+
+
+
+By utilizing the characteristics of large area and the ability to display a large amount of information, sharing key information on a large screen can facilitate team discussions and decision-making. Therefore, large screens are also commonly used for data analysis and monitoring. At present, the visualization of large screen data mainly includes three categories: information display, data analysis, and monitoring and warning.
+
+
+
+## 3. Development of Data Visualization
+
+After obtaining the development of computer graphics, it went through three stages: scientific visualization, information visualization, and data visualization. Initially, scientific researchers proposed the requirements for scientific modeling and data visualization. After entering the 1990s, there was a large demand for single machine data visualization, with EXCEL being a representative of this period. Various products emerged in the Internet era, and big data exploded in growth, Promoting the rapid development of data visualization technology
+
+
+
+## 4. Expression of data big screen
+
+A large screen reflects business and management through the display of data and charts. For example, the theme of a large screen for energy consumption should be: carbon peak, carbon neutrality, reflecting and predicting when carbon peak will occur, how high the peak will be, and the peak situation in various industries and regions; The big screen of state-owned asset supervision should be: expressing the legality and compliance of state-owned asset supervision, preserving and increasing value, reflecting the investment situation of the administrative management, investment intensity, financial budget, financial settlement situation, debt risk situation, property rights registration, transaction situation, state-owned enterprise portrait, policy implementation, enterprise project approval, leader supervision, and supervision in various aspects such as "three major and one major"

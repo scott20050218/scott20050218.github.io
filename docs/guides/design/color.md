@@ -1,127 +1,233 @@
-# 数据可视化“配色秘籍”
-
-- [数据可视化“配色秘籍”](https://mp.weixin.qq.com/s?__biz=MzIwMTM3OTg5MA==&mid=2683439539&idx=1&sn=b96b527457aca15d6849b3d2e99bdb14&chksm=8ce870eebb9ff9f8d3279986b83b93134898aa42329d7fca2d0360197fdaba1f427f9ae16a71&scene=178&cur_album_id=1694704160148930560#rd)
-
-数据图表最关键的职能就是直观展示数据并让人理解数据，所以在做数据可视化时，**配色方案不能以个人喜好来选择，而是要明白它肩负着阐述数据的重任，** 需结合数据来重点突出核心内容。色彩之多让人眼花缭乱，这个时候你更要明确配色的作用，在使用时有所偏重。
-
-## 1,丰富色系，明暗适宜
-
-首先为了让配色有可辨识性，我们往往会选择较为丰富的色系，且色彩需要有跨度，让人一目了然但又不过于花哨。
-
-对于领导驾驶舱或数据大屏，我们还要考虑到它的使用场景。如果是在大屏上进行展示，由于设备的特殊性常常会用深色作为背景色以减少屏幕拖尾，观众在视觉上也不会觉得刺眼。所有图表的配色就需要以深色背景为基础，保证可视化效果清晰可辨识。
-
-   ![图片](../../img/guides/design/color/1.png)
+# Data Visualization "Color Matching Secret"
 
 
 
-## 2,对比明显，拒绝迷惑
-
-其次，颜色的选择不要过于相近，要易于数据间的区分，提高阅读舒适感。保持内容与背景有一定的对比关系，便于业务信息传达。对于单一色相配色，明度差异需要全局考虑，明度跨度够大才能更清晰的展示数据。
-
-当图表需要的颜色较少时，避免使用临近色相或类似色相，尽量选择对比色或互补色，这样可以使不同属性数据在图表中展示更加明确。当图表需要的颜色较多时，建议最多不超过12种色相。通常情况下人在不连续的区域内可以分辨6〜12种不同色相。过多的颜色对传达数据是没有作用的，反而让人产生迷惑。
-
-​    ![图片](../../img/guides/design/color/2.png)
+-[Data Visualization "Color Matching Secret"](https://mp.weixin.qq.com/s?__biz=MzIwMTM3OTg5MA==&mid=2683439539&idx=1&sn=b96b527457aca15d6849b3d2e99bdb14&chksm=8ce870eebb9ff9f8d3279986b83b93134898aa42329d7fca2d0360197fdaba1f427f9ae16a71&scene=178&cur_album_id=1694704160148930560#rd)
 
 
 
-## 3,约定俗成，语义色板
-
-色彩不光可以让可视化变得“漂亮”，还可以让其更有意义，让人一眼就能意会。这就要求设计师重视用色习惯，遵循相关标准，相当一部分图表色彩选择是按照某种习惯来设定的，即所谓约定俗成，有的甚至形成来规范。如气象预警配色，红绿灯配色，股市的红涨绿跌等。
+The most crucial function of data charts is to visually display data and enable people to understand it. Therefore, when visualizing data, * * color schemes should not be chosen based on personal preferences, but should understand that they bear the responsibility of explaining the data, and * * should focus on highlighting the core content by combining the data. The variety of colors is dazzling, and at this time, you need to be more clear about the role of color matching and use it with a certain emphasis.
 
 
 
-![图片](../../img/guides/design/color/3.png)
-
- **流行配色：浓妆淡抹总相宜** 
-
-如果你看了上述配色建议还是不知道该咋弄，那接下来的流行色可以让你多一种选择和参考，妥妥的化身时髦精，成为数据图表界的时尚担当。
-
-### 孟菲斯风格
-
-此配色设计灵感来源于“孟菲斯”风格，孟菲斯风格的数据图表更加强调个性化、风趣。适用于活泼、有个性的数据可视化，让人对你的数据印象深刻。
-
-​    ![图片](../../img/guides/design/color/4.png)     
+## 1. Rich color scheme, suitable for light and shade
 
 
 
-### 莫兰迪色
-
-莫兰迪配色近年来风很大，采用的色值加入了灰色和白色调，可以让数据图表更加柔和优雅，给人感觉沉稳大气。
-
-​    ![图片](../../img/guides/design/color/5.png)     
+Firstly, in order to make the color scheme recognizable, we often choose more diverse color schemes, and the colors need to have a span that is clear but not too flashy.
 
 
 
-### 马卡龙色
-
-此配色方案灵感源于《布达佩斯大饭店》，灵动跳脱的颜色让人莫名心情变好；与莫兰迪配色不同的是，马卡龙色的数据图表对于年轻化的行业来说接受度更高。
+For the leadership cockpit or data screen, we also need to consider its usage scenarios. If displayed on a large screen, due to the unique nature of the device, dark colors are often used as the background color to reduce screen drag, and the audience will not feel dazzling visually. The color scheme of all charts needs to be based on a dark background to ensure clear and recognizable visualization effects.
 
 
 
-​    ![图片](../../img/guides/design/color/6.png)
+![Image](../../img/guides/design/color/1.png)
 
 
 
-### 温暖色系
 
-该色系方案推荐以温暖明亮的暖色为主，辅以高级灰，给人的整体感觉是利落干练且有温度。
 
-​    ![图片](../../img/guides/design/color/7.png) 
+## 2. Obvious contrast, refusing to be confused
 
 
 
-### 红蓝CP配色
+Secondly, the selection of colors should not be too similar, and it should be easy to distinguish between data to improve reading comfort. Maintain a certain contrast between the content and the background, facilitating the communication of business information. For a single color scheme, the brightness difference needs to be considered globally, and the brightness span is large enough to display the data more clearly.
 
-自古红蓝出CP，这种方案采用不同深度的红蓝色系，让图表看起来更加和谐统一。 
 
-​    ![图片](../../img/guides/design/color/8.png) 
 
-另外给大家推荐几个配色网站，可以在灵感枯竭的时候找找灵感哦~
+When the chart requires fewer colors, avoid using adjacent or similar colors, and try to choose contrasting or complementary colors to make different attribute data more clearly displayed in the chart. When a chart requires a large number of colors, it is recommended not to exceed a maximum of 12 color schemes. Usually, people can distinguish 6-12 different color schemes in discontinuous areas. Too many colors have no effect on conveying data, but rather create confusion.
 
-- https://colordrop.io/ 
+
+
+![Image](../../img/guides/design/color/2.png)
+
+
+
+
+
+## 3. By convention, semantic palette
+
+
+
+Colors not only make visualization "beautiful", but also make it more meaningful and easy to understand at a glance. This requires designers to pay attention to color habits and follow relevant standards. A considerable portion of chart color choices are set according to certain habits, which are so-called conventions, and some even form standards. Such as weather warning color matching, traffic light color matching, and the red rise and green fall of the stock market.
+
+
+
+
+
+![Image](../../img/guides/design/color/3.png)
+
+
+
+**Popular color scheme: suitable for heavy makeup and light makeup**
+
+
+
+If you still don't know what to do after reading the color suggestions above, the following popular colors can provide you with an additional choice and reference, properly transforming into a trendy essence and becoming a fashion leader in the data chart industry.
+
+
+
+### Memphis style
+
+
+
+This color scheme is inspired by the "Memphis" style, where the data charts emphasize personalization and humor. Suitable for lively and personalized data visualization, leaving a deep impression on your data.
+
+
+
+![Image](../../img/guides/design/color/4.png)  
+
+
+
+
+
+### Morandi color
+
+
+
+The Morandi color scheme has been popular in recent years, with the addition of gray and white tones to the color values used, which can make the data chart more soft and elegant, giving people a sense of stability and atmosphere.
+
+
+
+![Image](../../img/guides/design/color/5.png)  
+
+
+
+
+
+### Macarone
+
+
+
+This color scheme is inspired by "Budapest Hotel", and the agile and jumping colors make people feel better inexplicably; Unlike the Morandi color scheme, the Macaron color data chart has a higher acceptance for younger industries.
+
+
+
+
+
+![Image](../../img/guides/design/color/6.png)  
+
+
+
+
+
+### Warm color scheme
+
+
+
+The recommended color scheme for this color scheme is mainly warm and bright warm colors, supplemented by high-end gray, giving the overall feeling of being clean, dry, and warm.
+
+
+
+![Image](../../img/guides/design/color/7.png)  
+
+
+
+
+
+### Red and blue CP color scheme
+
+
+
+Since ancient times, CP has emerged from red and blue, and this scheme uses different shades of red and blue to make the chart look more harmonious and unified.
+
+
+
+![Image](../../img/guides/design/color/8.png)  
+
+
+
+Also, I would like to recommend a few color matching websites for you to find inspiration when it dries up~
+
+
+
+- https://colordrop.io/
+
+
 
 - https://coolors.co/palettes/trending
 
-- https://uigradients.com/#Shore  
 
-## 4,行业配色：广学而博专一而精
 
-看了这么多配色方案，每一个都很好看，是不是都可以应用到自己的可视化方案中去呢？小亿得说一句：好汉且慢！毕竟每个行业的特性各异，想展示的信息也不尽相同，下面小亿要介绍的行业配色方案则更有借鉴意义： 
+- https://uigradients.com/#Shore
 
-### 能源行业
 
-亿信华辰在能源行业作出了许多亮眼的成绩，先后为国家能源集团、临矿集团、湖南电力、甘肃电力等单位做过数据分析及数据治理相关项目。而煤炭、电力等能源行业越来越重视环保及可持续发展的重要性，在配色上选用清新自然的蓝绿色再合适不过了。
 
-![图片](../../img/guides/design/color/9.png)
+## 4. Industry color matching: broad learning, broad knowledge, specialized and refined
 
-### 政府单位
 
-亿信华辰在政府领域深耕十余载，包括国家税务局、荔湾区政数局、禅城区政数局等都有良好的合作。政府单位的配色往往以中国红为主，且暖融融的配色给人一种人民幸福安康，祖国繁荣昌盛的氛围。
 
-![图片](../../img/guides/design/color/10.png)
+After seeing so many color schemes, each one looks great. Can you apply it to your own visualization scheme? Xiao Yide said, 'Wait a minute, hero!'! After all, each industry has its own unique characteristics and the information it wants to showcase is also different. The industry color scheme that Xiaoyi will introduce below is more meaningful for reference:
 
-### 医药行业
 
-亿信华辰服务于国家及各地方卫健委和药监局。卫生与药监需要有健康、干净的图表配色，于是我们选用了更加清新的色值样例。
 
-![图片](../../img/guides/design/color/11.png)
+### Energy industry
 
-### 金融行业
 
-听起来就非常多金的行业，需要选用一些低饱和度的图表配色，更能体现其专业性。这里特地选用了深色的背景示例，让大家明白浅色深色只要配色得好都可以完美驾驭。亿信华辰在金融行业的布局由来已久，包括中国人民银行、中国农业发展银行、中国进出口银行以及招商租赁等都有长期的合作。
 
-![图片](../../img/guides/design/color/12.png)
+Yixin Huachen has made many outstanding achievements in the energy industry, and has successively conducted data analysis and data governance related projects for units such as National Energy Group, Linkuang Group, Hunan Electric Power, Gansu Electric Power, etc. The energy industries such as coal and electricity are increasingly emphasizing the importance of environmental protection and sustainable development, and choosing a fresh and natural blue-green color scheme is perfect.
 
-### 制造行业
 
-制造行业是目前数字化转型的主力军，利用大数据提升自身的生产力是一直以来的关键点。与亿信华辰合作的制造业领头羊有东芝、中船、中铁一局等等。制造业给人的感觉就是老大哥的形象，需要选取更加成熟、工业风格的图表配色。
 
-![图片](../../img/guides/design/color/13.png)
+![Image](../../img/guides/design/color/9.png)  
 
-### 电商行业
 
-新零售、电商等行业需要有促销氛围，在图表制作时，考虑用高明度、高饱和度的色彩凸显营销数据。亿信华辰在零售行业和电商行业也开拓耕耘了多年，如华致酒行、顾家家居、箭牌、DHC等都是我们的客户哦！
 
-![图片](../../img/guides/design/color/14.png)
+### Government units
 
-   
+
+
+Yixin Huachen has been deeply involved in the government field for more than ten years, including the National Taxation Bureau, Liwan District Government and Data Bureau, and Chancheng District Government and Data Bureau, all of which have good cooperation. The color scheme of government units often focuses on Chinese red, and the warm and harmonious color scheme gives people an atmosphere of happiness, health, and prosperity for the motherland.
+
+
+
+![Image](../../img/guides/design/color/10.png)  
+
+
+
+### The pharmaceutical industry
+
+
+
+Yixin Huachen serves the national and local health commissions and drug regulatory bureaus. Health and drug supervision require a healthy and clean color scheme for charts, so we chose more fresh color value samples.
+
+
+
+![Image](../../img/guides/design/color/11.png)  
+
+
+
+### Financial industry
+
+
+
+It sounds like an industry with a lot of gold, so it is necessary to choose some low saturation chart colors to better reflect its professionalism. We have specially selected a dark background example here to make everyone understand that light and dark colors can be perfectly handled as long as they are well matched. Yixin Huachen has a long-standing presence in the financial industry, including long-term cooperation with the People's Bank of China, Agricultural Development Bank of China, Export Import Bank of China, and China Merchants Leasing.
+
+
+
+![Image](../../img/guides/design/color/12.png)  
+
+
+
+### Manufacturing industry
+
+
+
+The manufacturing industry is currently the main force of digital transformation, and using big data to enhance one's own productivity has always been a key point. The manufacturing leaders cooperating with Yixin Huachen include Toshiba, China Shipbuilding Corporation, China Railway First Group, and so on. The manufacturing industry gives people the impression of being a big brother, requiring the selection of more mature and industrial style chart color schemes.
+
+
+
+![Image](../../img/guides/design/color/13.png)  
+
+
+
+### E-commerce industry
+
+
+
+New retail, e-commerce and other industries need a promotional atmosphere, and when creating charts, consider highlighting marketing data with high brightness and saturation colors. Yixin Huachen has also developed and cultivated in the retail and e-commerce industries for many years, such as Huazhi Liquor Company, Gujia Home Furnishing, Wrigley, DHC, etc., which are all our customers!
+
+
+
+![Image](../../img/guides/design/color/14.png)  

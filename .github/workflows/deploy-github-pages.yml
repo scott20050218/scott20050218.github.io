@@ -1,0 +1,43 @@
+# 构建 VuePress 并推送到 gh-pages，供「用户名.github.io」仓库使用。
+# 仓库设置：Settings → Pages → Build and deployment → Source：Branch「gh-pages」/「/ (root)」
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
+        run: npm run build
+
+      - name: Deploy to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: docs/.vuepress/dist
+          clean: true

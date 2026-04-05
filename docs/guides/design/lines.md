@@ -1,12 +1,12 @@
-# 两线规划
+# Two line planning
 
-## 真庆观
-链接：[https://campus.thingjs.com/s/p/bpx6CM6wcSz 访问码：UggW](https://campus.thingjs.com/s/p/bpx6CM6wcSz)
+## ZhenQing Temple
+URL：[https://campus.thingjs.com/s/p/bpx6CM6wcSz password：UggW](https://campus.thingjs.com/s/p/bpx6CM6wcSz)
 
-## 真庆观CAD版
+## ZhenQing Temple CAD
 [http://admin.lihengrui.cn:18081/zqk/](http://admin.lihengrui.cn:18081/zqk/)
 
-## 金马碧鸡坊
+## Jin Ma Bi Ji Fang
 [https://campus.thingjs.com/preview?sc=FrsGRxdJwGf](https://campus.thingjs.com/preview?sc=FrsGRxdJwGf)
 
 

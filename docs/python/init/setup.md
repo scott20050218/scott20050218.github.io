@@ -23,7 +23,7 @@
 
 ### 2.2 list Python Package
 * conda list
-* conda list -n python34 #查看指定环境安装的Python包
+* conda list -n python34 # check Python modules
 
 ### 2.3 delete Python Package
 * conda remove -n python34 numpy

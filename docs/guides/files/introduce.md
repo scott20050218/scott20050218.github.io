@@ -1,6 +1,6 @@
-# JS积累
+# JS Accumulation
 
-## 千分位
+## Thousandth percentile
 ```js
 function format(v) {
   const reg = /\d{1,3}(?=(\d{3})+$)/g
@@ -14,35 +14,35 @@ function format(v) {
 }
 ```
 
-## 保留2位小数
+## Retain 2 decimal places
 ```js
     function toFixed(num, decimals){
       return num.toFixed(decimals)
     }
 ```
 
-## 取随机数
+## Taking Random Numbers
 ```js
   function random (val) {
     return Math.floor(Math.random() * val)
   }
 ```
 
-## 数组排序
+## Array Sorting
 ```js
 dataArray.sort(function sortNumber(a, b) {
    return b.value - a.value
 })
 ```
 
-## 数组取top12
+## Array top12
 ```js
 dataArray.sort(function (a, b) {
     return b[1] - a[1]
 }).slice(0, 12)
 ```
 
-## 六边形状
+## Hexagonal shape
 ```css
     #star-six {
       width: 0;        
@@ -67,5 +67,5 @@ dataArray.sort(function (a, b) {
 
 
 
-[参考](https://www.w3school.com.cn/b.asp)
-[css参考](https://css-tricks.com/)
+[Reference](https://www.w3school.com.cn/b.asp)
+[css Reference](https://css-tricks.com/)
