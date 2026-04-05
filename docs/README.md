@@ -1,30 +1,31 @@
 ---
 home: true
 heroText: Big Screen
-tagline:  Developed based on Vue 3.0+EChart 4.0
-actionText: Getting Start →
+tagline: Built with Vue 3 and ECharts 4
+actionText: Get Started →
 actionLink: /guides/
 features:
 - title: Vue 3.0
-  details: Based on the latest Vue 3.0 development, fully utilize the advanced features of Vue 3.0 to develop enterprise level practical projects
+  details: Built on Vue 3, using its features for hands-on, production-style projects
 - title: ECharts 4.0
-  details: The popular JavaScript graphics library ECharts 4.0 for deep learning and application, including ECharts gl
+  details: ECharts 4 for charts and maps, including echarts-gl where needed
 - title: Data screen
-  details: Enterprise level data large screen project, ready to use out of the box, quickly copied to actual projects, providing visual templates
-  
-footer:  2021-2024 Powered by LiRui
+  details: Data-screen style projects you can reuse in real deployments, with curated visualization patterns
+
+footer: 2021–2026 · Li Rui
 ---
 
 
 
-# Pre learning
-- Having a foundation in JavaScript, HTML, and CSS
-- Having a foundation in Vue usage
-- Understand the basic concepts of npm and webpack
+## Prerequisites
 
+- Basic JavaScript, HTML, and CSS
+- Familiarity with Vue
+- Basic npm and webpack concepts
 
-If you want to study this course, please support the genuine version. Thank you!
-[demo Url](https://admin.lihengrui.cn/)
+If you use this material, please support the official course where applicable. Thank you.
+
+[Live demo](https://admin.lihengrui.cn/)
 
 ***
 <p style="text-align: center;">

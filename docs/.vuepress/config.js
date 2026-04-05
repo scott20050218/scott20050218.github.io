@@ -20,6 +20,7 @@ module.exports = {
           { text: 'Home', link: '/' },
           { text: 'Guide', link: '/guides/' },
           { text: 'Case', link: '/case/' },
+          { text: 'Projects', link: '/projects/' },
           { text: 'Python', link: '/python/' },
           { text: 'Demo', link: 'https://admin.lihengrui.cn/' },
           { text: '中文', link: '/zh/' },
@@ -93,6 +94,22 @@ module.exports = {
                 'module/cal',
               ]
             },
+          ],
+          '/projects/': [
+            {
+              title: 'Projects',
+              collapsable: false,
+              children: [
+                { title: 'Overview', path: '' },
+                { title: 'Government investment (Kunming)', path: 'government-investment' },
+                { title: 'TB-scale power & regulatory data', path: 'energy-data-platform' },
+                { title: 'Smart city', path: 'smart-city' },
+                { title: 'Banking & device operations', path: 'banking-device-operations' },
+                { title: 'Self-service terminals', path: 'self-service-terminals' },
+                { title: 'Retail MCP & analytics', path: 'retail-mcp-internship' },
+                { title: 'SAP attendance automation', path: 'sap-attendance' },
+              ]
+            },
           ]
         }
       },
@@ -104,6 +121,7 @@ module.exports = {
           { text: '首页', link: '/zh/' },
           { text: '指南', link: '/zh/guides/' },
           { text: '案例', link: '/zh/case/' },
+          { text: '项目', link: '/zh/projects/' },
           { text: 'Python', link: '/zh/python/' },
           { text: 'demo', link: 'https://admin.lihengrui.cn/' },
           { text: 'EN', link: '/' },
@@ -175,6 +193,22 @@ module.exports = {
                 'module/matplotlib',
                 'module/scikit-learn',
                 'module/cal',
+              ]
+            },
+          ],
+          '/zh/projects/': [
+            {
+              title: '项目',
+              collapsable: false,
+              children: [
+                { title: '总览', path: '' },
+                { title: '昆明政府投资平台', path: 'government-investment' },
+                { title: 'TB 级电力与监管数据平台', path: 'energy-data-platform' },
+                { title: '智慧城市', path: 'smart-city' },
+                { title: '银行与设备运维', path: 'banking-device-operations' },
+                { title: '自助终端网络', path: 'self-service-terminals' },
+                { title: '零售 MCP 与门店分析', path: 'retail-mcp-internship' },
+                { title: 'SAP 考勤自动化', path: 'sap-attendance' },
               ]
             },
           ]
