@@ -1,335 +1,329 @@
 module.exports = {
-  dest: 'docs/.vuepress/dist',
+  dest: "docs/.vuepress/dist",
   // 用户/组织 GitHub Pages（username.github.io 根域名）使用 '/'
-  base: '/',
+  base: "/",
   sidebarDepth: 1,
   head: [
-    ['link', { rel: 'icon', href: `web.png` }],
-    ['meta', { name: 'theme-color', content: '#1890ff' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+    ["link", { rel: "icon", href: `web.png` }],
+    ["meta", { name: "theme-color", content: "#1890ff" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+    ],
+    ["meta", { name: "msapplication-TileColor", content: "#000000" }],
   ],
   themeConfig: {
     locales: {
-      '/': {
+      "/": {
         search: true,
         searchMaxSuggestions: 5,
-        lastUpdated: 'Last updated',
+        lastUpdated: "Last updated",
         nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Guide', link: '/guides/' },
-          { text: 'Case', link: '/case/' },
-          { text: 'Projects', link: '/projects/' },
-          { text: 'About / CV', link: '/about/' },
-          { text: 'Python', link: '/python/' },
-          { text: 'Demo', link: 'https://admin.lihengrui.cn/' },
-          { text: '中文', link: '/zh/' },
-          { text: 'DE', link: '/de/' }
+          { text: "Home", link: "/" },
+          { text: "Guide", link: "/guides/" },
+          { text: "Case", link: "/case/" },
+          { text: "Projects", link: "/projects/" },
+          { text: "About / CV", link: "/about/" },
+          { text: "Python", link: "/python/" },
+          { text: "Demo", link: "https://admin.lihengrui.cn/" },
+          { text: "中文", link: "/zh/" },
+          { text: "DE", link: "/de/" },
         ],
         navbar: true,
         sidebar: {
           collapsable: true,
-          '/guides/': [
+          "/guides/": [
             {
-              title: 'Overview',
+              title: "Overview",
               collapsable: true,
-              children: [
-                ''
-              ]
+              children: [""],
             },
             {
-              title: 'Doc',
+              title: "Doc",
               collapsable: true,
               children: [
-                'files/quickLearn',
-                'files/env',
-                'files/introduce',
-                'files/program',
-                'files/components',
-                'files/log',
-              ]
+                "files/quickLearn",
+                "files/env",
+                "files/introduce",
+                "files/program",
+                "files/components",
+                "files/log",
+              ],
             },
             {
-              title: 'ScreenDesign',
+              title: "ScreenDesign",
               collapsable: true,
               children: [
-                'design/basic',
-                'design/design',
-                { title: 'Principles', path: 'design/principles' },
-                { title: 'Process', path: 'design/process' },
-                { title: 'Note', path: 'design/attention' },
-                { title: 'Question', path: 'design/qa' },
-                'design/color',
-                'design/price',
-              ]
+                "design/basic",
+                "design/design",
+                { title: "Principles", path: "design/principles" },
+                { title: "Process", path: "design/process" },
+                { title: "Note", path: "design/attention" },
+                { title: "Question", path: "design/qa" },
+                "design/color",
+                "design/price",
+              ],
             },
           ],
-          '/python/': [
+          "/python/": [
             {
-              title: 'Overview',
+              title: "Overview",
               collapsable: true,
-              children: [
-                ''
-              ]
+              children: [""],
             },
             {
-              title: 'Env',
+              title: "Env",
               collapsable: true,
               children: [
-                'init/install',
-                'init/setup',
-                'init/IDEvs',
-                'init/Jupyter',
-              ]
+                "init/install",
+                "init/setup",
+                "init/IDEvs",
+                "init/Jupyter",
+              ],
             },
             {
-              title: '5 module',
+              title: "5 module",
               collapsable: true,
               children: [
-                'module/numpy',
-                'module/scipy',
-                'module/pandas',
-                'module/matplotlib',
-                'module/scikit-learn',
-                'module/cal',
-              ]
+                "module/numpy",
+                "module/scipy",
+                "module/pandas",
+                "module/matplotlib",
+                "module/scikit-learn",
+                "module/cal",
+              ],
             },
           ],
-          '/projects/': [
+          "/projects/": [
             {
-              title: 'Projects',
+              title: "Projects",
               collapsable: false,
               children: [
-                { title: 'Overview', path: '' },
-                { title: 'Government investment (Kunming)', path: 'government-investment' },
-                { title: 'TB-scale power & regulatory data', path: 'energy-data-platform' },
-                { title: 'Smart city', path: 'smart-city' },
-                { title: 'Banking & device operations', path: 'banking-device-operations' },
-                { title: 'Self-service terminals', path: 'self-service-terminals' },
-                { title: 'Retail MCP & analytics', path: 'retail-mcp-internship' },
-                { title: 'SAP attendance automation', path: 'sap-attendance' },
-              ]
+                { title: "Overview", path: "" },
+                {
+                  title: "Retail MCP & analytics",
+                  path: "retail-mcp-internship",
+                },
+                { title: "SAP attendance automation", path: "sap-attendance" },
+                {
+                  title: "Government investment (Kunming)",
+                  path: "government-investment",
+                },
+                {
+                  title: "TB-scale power & regulatory data",
+                  path: "energy-data-platform",
+                },
+                { title: "Smart city", path: "smart-city" },
+                {
+                  title: "Banking & device operations",
+                  path: "banking-device-operations",
+                },
+                {
+                  title: "Self-service terminals",
+                  path: "self-service-terminals",
+                },
+              ],
             },
           ],
-          '/about/': false,
-        }
+          "/about/": false,
+        },
       },
-      '/zh/': {
+      "/zh/": {
         search: true,
         searchMaxSuggestions: 5,
-        lastUpdated: '上次更新',
+        lastUpdated: "上次更新",
         nav: [
-          { text: '首页', link: '/zh/' },
-          { text: '指南', link: '/zh/guides/' },
-          { text: '案例', link: '/zh/case/' },
-          { text: 'Python', link: '/zh/python/' },
-          { text: 'demo', link: 'https://admin.lihengrui.cn/' },
-          { text: 'EN', link: '/' },
-          { text: 'DE', link: '/de/' }
+          { text: "首页", link: "/zh/" },
+          { text: "指南", link: "/zh/guides/" },
+          { text: "案例", link: "/zh/case/" },
+          { text: "Python", link: "/zh/python/" },
+          { text: "demo", link: "https://admin.lihengrui.cn/" },
+          { text: "EN", link: "/" },
+          { text: "DE", link: "/de/" },
         ],
         navbar: true,
         sidebar: {
           collapsable: true,
-          '/zh/guides/': [
+          "/zh/guides/": [
             {
-              title: '产品概述',
+              title: "产品概述",
               collapsable: true,
-              children: [
-                ''
-              ]
+              children: [""],
             },
             {
-              title: '文档',
+              title: "文档",
               collapsable: true,
               children: [
-                'files/quickLearn',
-                'files/env',
-                'files/introduce',
-                'files/program',
-                'files/components',
-                'files/log',
-              ]
+                "files/quickLearn",
+                "files/env",
+                "files/introduce",
+                "files/program",
+                "files/components",
+                "files/log",
+              ],
             },
             {
-              title: '大屏设计',
+              title: "大屏设计",
               collapsable: true,
               children: [
-                'design/basic',
-                'design/design',
-                { title: '设计原则', path: 'design/principles' },
-                { title: '设计流程', path: 'design/process' },
-                { title: '注意事项', path: 'design/attention' },
-                { title: '问题', path: 'design/qa' },
-                'design/color',
-                'design/price',
-              ]
+                "design/basic",
+                "design/design",
+                { title: "设计原则", path: "design/principles" },
+                { title: "设计流程", path: "design/process" },
+                { title: "注意事项", path: "design/attention" },
+                { title: "问题", path: "design/qa" },
+                "design/color",
+                "design/price",
+              ],
             },
           ],
-          '/zh/python/': [
+          "/zh/python/": [
             {
-              title: '概述',
+              title: "概述",
               collapsable: true,
-              children: [
-                ''
-              ]
+              children: [""],
             },
             {
-              title: '环境准备',
+              title: "环境准备",
               collapsable: true,
               children: [
-                'init/install',
-                'init/setup',
-                'init/IDEvs',
-                'init/Jupyter',
-              ]
+                "init/install",
+                "init/setup",
+                "init/IDEvs",
+                "init/Jupyter",
+              ],
             },
             {
-              title: '5个模块',
+              title: "5个模块",
               collapsable: true,
               children: [
-                'module/numpy',
-                'module/scipy',
-                'module/pandas',
-                'module/matplotlib',
-                'module/scikit-learn',
-                'module/cal',
-              ]
+                "module/numpy",
+                "module/scipy",
+                "module/pandas",
+                "module/matplotlib",
+                "module/scikit-learn",
+                "module/cal",
+              ],
             },
-          ]
-        }
+          ],
+        },
       },
-      '/de/': {
+      "/de/": {
         search: true,
         searchMaxSuggestions: 5,
-        lastUpdated: 'lastUpdated',
+        lastUpdated: "lastUpdated",
         nav: [
-          { text: 'Home', link: '/de/' },
-          { text: 'A1', link: '/de/A1/' },
-          { text: 'A2', link: '/de/A2/' },
-          { text: 'B1', link: '/de/B1/' },
-          { text: 'Grammatik', link: '/de/gram/' },
-          { text: 'CV', link: '/about/' },
-          { text: 'EN', link: '/' },
-          { text: '中文', link: '/zh/' }
+          { text: "Home", link: "/de/" },
+          { text: "A1", link: "/de/A1/" },
+          { text: "A2", link: "/de/A2/" },
+          { text: "B1", link: "/de/B1/" },
+          { text: "Grammatik", link: "/de/gram/" },
+          { text: "CV", link: "/about/" },
+          { text: "EN", link: "/" },
+          { text: "中文", link: "/zh/" },
         ],
         navbar: true,
         sidebar: {
           collapsable: true,
-          '/de/A1/': [
+          "/de/A1/": [
             {
-              title: 'Overview',
+              title: "Overview",
               collapsable: true,
-              children: [
-                ''
-              ]
+              children: [""],
             },
             {
-              title: 'Kurs',
+              title: "Kurs",
               collapsable: true,
               children: [
-                'kurs/1_KaffeeoderTee',
-                'kurs/2_SpracheimKurs',
-                'kurs/3_StaedteLaenderSprachen',
-                'kurs/4',
-                'kurs/5',
-                'kurs/6',
-                'kurs/7',
-                'kurs/8',
-              ]
+                "kurs/1_KaffeeoderTee",
+                "kurs/2_SpracheimKurs",
+                "kurs/3_StaedteLaenderSprachen",
+                "kurs/4",
+                "kurs/5",
+                "kurs/6",
+                "kurs/7",
+                "kurs/8",
+              ],
             },
           ],
-          '/de/A2/': [
+          "/de/A2/": [
             {
-              title: 'Overview',
+              title: "Overview",
               collapsable: true,
-              children: [
-                ''
-              ]
+              children: [""],
             },
             {
-              title: 'Kurs',
+              title: "Kurs",
               collapsable: true,
-              children: [
-                'kurs/1',
-                'kurs/2',
-                'kurs/3',
-                'kurs/4',
-                'kurs/5',
-              ]
+              children: ["kurs/1", "kurs/2", "kurs/3", "kurs/4", "kurs/5"],
             },
           ],
-          '/de/B1/': [
+          "/de/B1/": [
             {
-              title: 'Overview',
+              title: "Overview",
               collapsable: true,
-              children: [
-                ''
-              ]
+              children: [""],
             },
             {
-              title: 'Kurs',
+              title: "Kurs",
               collapsable: true,
               children: [
-                'kurs/1',
-                'kurs/2',
-                'kurs/3',
-                'kurs/4',
-                'kurs/5',
-                'kurs/6',
-              ]
+                "kurs/1",
+                "kurs/2",
+                "kurs/3",
+                "kurs/4",
+                "kurs/5",
+                "kurs/6",
+              ],
             },
           ],
-          '/de/gram/': [
+          "/de/gram/": [
             {
-              title: '性数格',
+              title: "性数格",
               collapsable: true,
-              children: [
-                ''
-              ]
+              children: [""],
             },
             {
-              title: '形容词变位',
+              title: "形容词变位",
               collapsable: true,
-              children: [
-                'adj/base'
-              ]
+              children: ["adj/base"],
             },
           ],
-        }
-      }
-    }
+        },
+      },
+    },
   },
   locales: {
-    '/': {
-      lang: 'en-US',
-      title: 'Personal work display',
-      description: 'Rui Li\'s personal official website',
+    "/": {
+      lang: "en-US",
+      title: "Personal work display",
+      description: "Rui Li's personal official website",
       markdown: {
         anchor: { permalink: false },
         toc: { includeLevel: [1] },
-        lineNumbers: true
-      }
+        lineNumbers: true,
+      },
     },
-    '/zh/': {
-      lang: 'zh-CN',
-      title: '个人作品展示',
-      description: '李锐个人官网',
+    "/zh/": {
+      lang: "zh-CN",
+      title: "个人作品展示",
+      description: "李锐个人官网",
       markdown: {
         anchor: { permalink: false },
         toc: { includeLevel: [1] },
-        lineNumbers: true
-      }
+        lineNumbers: true,
+      },
     },
-    '/de/': {
-      lang: 'de-DE',
-      title: 'Personal work display',
-      description: 'Rui Li\'s personal official website',
+    "/de/": {
+      lang: "de-DE",
+      title: "Personal work display",
+      description: "Rui Li's personal official website",
       markdown: {
         anchor: { permalink: false },
         toc: { includeLevel: [1] },
-        lineNumbers: true
-      }
-    }
-  }
-}
+        lineNumbers: true,
+      },
+    },
+  },
+};
