@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>numpy | Personal work display</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="web.png">
+    <meta name="description" content="Rui Li&#39;s personal official website">
+    <meta name="theme-color" content="#1890ff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.42ab1c46.css" as="style"><link rel="preload" href="/assets/js/app.17380b21.js" as="script"><link rel="preload" href="/assets/js/2.21a5ec8c.js" as="script"><link rel="preload" href="/assets/js/67.7c84de8c.js" as="script"><link rel="prefetch" href="/assets/js/10.bca75fa5.js"><link rel="prefetch" href="/assets/js/11.9d27bb9b.js"><link rel="prefetch" href="/assets/js/12.e9c7e9f9.js"><link rel="prefetch" href="/assets/js/13.de9c0c1d.js"><link rel="prefetch" href="/assets/js/14.2e3561b9.js"><link rel="prefetch" href="/assets/js/15.2528570e.js"><link rel="prefetch" href="/assets/js/16.ffc2029b.js"><link rel="prefetch" href="/assets/js/17.f693e2ca.js"><link rel="prefetch" href="/assets/js/18.a5bb04cc.js"><link rel="prefetch" href="/assets/js/19.327dc4c7.js"><link rel="prefetch" href="/assets/js/20.5cfdf4bb.js"><link rel="prefetch" href="/assets/js/21.91852fac.js"><link rel="prefetch" href="/assets/js/22.26bbb74e.js"><link rel="prefetch" href="/assets/js/23.5c0e681b.js"><link rel="prefetch" href="/assets/js/24.1c55bf5d.js"><link rel="prefetch" href="/assets/js/25.52636fa5.js"><link rel="prefetch" href="/assets/js/26.8c084565.js"><link rel="prefetch" href="/assets/js/27.eda32e3c.js"><link rel="prefetch" href="/assets/js/28.de397d23.js"><link rel="prefetch" href="/assets/js/29.ee2afac6.js"><link rel="prefetch" href="/assets/js/3.37909eac.js"><link rel="prefetch" href="/assets/js/30.f723d328.js"><link rel="prefetch" href="/assets/js/31.ee19acfe.js"><link rel="prefetch" href="/assets/js/32.48bdad26.js"><link rel="prefetch" href="/assets/js/33.e8adccdd.js"><link rel="prefetch" href="/assets/js/34.53f0df48.js"><link rel="prefetch" href="/assets/js/35.2c14b256.js"><link rel="prefetch" href="/assets/js/36.025ae11e.js"><link rel="prefetch" href="/assets/js/37.8efc88b1.js"><link rel="prefetch" href="/assets/js/38.04d3f26b.js"><link rel="prefetch" href="/assets/js/39.35ffd352.js"><link rel="prefetch" href="/assets/js/4.47f3b9e8.js"><link rel="prefetch" href="/assets/js/40.ae848d53.js"><link rel="prefetch" href="/assets/js/41.0aa34788.js"><link rel="prefetch" href="/assets/js/42.011ab610.js"><link rel="prefetch" href="/assets/js/43.26540cd4.js"><link rel="prefetch" href="/assets/js/44.dae7d82e.js"><link rel="prefetch" href="/assets/js/45.9389551b.js"><link rel="prefetch" href="/assets/js/46.bf9cb152.js"><link rel="prefetch" href="/assets/js/47.231f1ed0.js"><link rel="prefetch" href="/assets/js/48.95f9a3ad.js"><link rel="prefetch" href="/assets/js/49.c9838e29.js"><link rel="prefetch" href="/assets/js/5.97b1b793.js"><link rel="prefetch" href="/assets/js/50.e9f537cb.js"><link rel="prefetch" href="/assets/js/51.21ffe98a.js"><link rel="prefetch" href="/assets/js/52.c26b0fd4.js"><link rel="prefetch" href="/assets/js/53.30c9d09e.js"><link rel="prefetch" href="/assets/js/54.edfc6344.js"><link rel="prefetch" href="/assets/js/55.79ba82d0.js"><link rel="prefetch" href="/assets/js/56.270efac6.js"><link rel="prefetch" href="/assets/js/57.78fb1d39.js"><link rel="prefetch" href="/assets/js/58.f4d621b6.js"><link rel="prefetch" href="/assets/js/59.dbfd8e85.js"><link rel="prefetch" href="/assets/js/6.1cf73a41.js"><link rel="prefetch" href="/assets/js/60.b276a974.js"><link rel="prefetch" href="/assets/js/61.0f19b78e.js"><link rel="prefetch" href="/assets/js/62.d3b6c4cc.js"><link rel="prefetch" href="/assets/js/63.69d50450.js"><link rel="prefetch" href="/assets/js/64.c6f45b4e.js"><link rel="prefetch" href="/assets/js/65.50ba8375.js"><link rel="prefetch" href="/assets/js/66.103d30f4.js"><link rel="prefetch" href="/assets/js/68.c024c815.js"><link rel="prefetch" href="/assets/js/69.f9d36fc1.js"><link rel="prefetch" href="/assets/js/7.c6d76d36.js"><link rel="prefetch" href="/assets/js/70.47289955.js"><link rel="prefetch" href="/assets/js/71.ea24c56c.js"><link rel="prefetch" href="/assets/js/72.f112498c.js"><link rel="prefetch" href="/assets/js/73.dbfcf8c4.js"><link rel="prefetch" href="/assets/js/74.07cb18bd.js"><link rel="prefetch" href="/assets/js/75.fe3d82e5.js"><link rel="prefetch" href="/assets/js/76.284542d9.js"><link rel="prefetch" href="/assets/js/77.2ae34bce.js"><link rel="prefetch" href="/assets/js/78.086755c4.js"><link rel="prefetch" href="/assets/js/79.e358465a.js"><link rel="prefetch" href="/assets/js/8.e5666dc0.js"><link rel="prefetch" href="/assets/js/80.6ee3d440.js"><link rel="prefetch" href="/assets/js/81.9719d065.js"><link rel="prefetch" href="/assets/js/82.db0404f0.js"><link rel="prefetch" href="/assets/js/83.fa191854.js"><link rel="prefetch" href="/assets/js/84.bbf86b4b.js"><link rel="prefetch" href="/assets/js/85.bf0da8f0.js"><link rel="prefetch" href="/assets/js/86.f0e43a87.js"><link rel="prefetch" href="/assets/js/87.5686fc98.js"><link rel="prefetch" href="/assets/js/88.b748482b.js"><link rel="prefetch" href="/assets/js/89.081782e3.js"><link rel="prefetch" href="/assets/js/9.0300fffc.js"><link rel="prefetch" href="/assets/js/90.a0f276bf.js"><link rel="prefetch" href="/assets/js/91.63f20111.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.42ab1c46.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Personal work display</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/guides/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/case/" class="nav-link">
+  Case
+</a></div><div class="nav-item"><a href="/python/" class="nav-link router-link-active">
+  Python
+</a></div><div class="nav-item"><a href="https://admin.lihengrui.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Demo
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="/zh/" class="nav-link">
+  中文
+</a></div><div class="nav-item"><a href="/de/" class="nav-link">
+  DE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/python/module/numpy.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  en-US
+</a></li><li class="dropdown-item"><!----> <a href="/zh/python/module/numpy.html" class="nav-link">
+  zh-CN
+</a></li><li class="dropdown-item"><!----> <a href="/de/" class="nav-link">
+  de-DE
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/guides/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/case/" class="nav-link">
+  Case
+</a></div><div class="nav-item"><a href="/python/" class="nav-link router-link-active">
+  Python
+</a></div><div class="nav-item"><a href="https://admin.lihengrui.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Demo
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="/zh/" class="nav-link">
+  中文
+</a></div><div class="nav-item"><a href="/de/" class="nav-link">
+  DE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/python/module/numpy.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  en-US
+</a></li><li class="dropdown-item"><!----> <a href="/zh/python/module/numpy.html" class="nav-link">
+  zh-CN
+</a></li><li class="dropdown-item"><!----> <a href="/de/" class="nav-link">
+  de-DE
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Overview</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Env</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>5 module</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/python/module/numpy.html" aria-current="page" class="active sidebar-link">numpy</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/python/module/numpy.html#creating-and-accessing-arrays" class="sidebar-link">Creating and accessing arrays</a></li><li class="sidebar-sub-header"><a href="/python/module/numpy.html#array-and-matrix" class="sidebar-link">Array and matrix</a></li><li class="sidebar-sub-header"><a href="/python/module/numpy.html#array-s-function" class="sidebar-link">Array's function</a></li><li class="sidebar-sub-header"><a href="/python/module/numpy.html#array-input-and-output" class="sidebar-link">Array input And output</a></li><li class="sidebar-sub-header"><a href="/python/module/numpy.html#creating-and-accessing-arrays-refer" class="sidebar-link">Creating and accessing arrays (refer)</a></li><li class="sidebar-sub-header"><a href="/python/module/numpy.html#array-and-matrix-refer" class="sidebar-link">Array and Matrix(refer)</a></li><li class="sidebar-sub-header"><a href="/python/module/numpy.html#array-s-input-output-refer" class="sidebar-link">Array's input &amp; output(refer)</a></li></ul></li><li><a href="/python/module/scipy.html" class="sidebar-link">scipy</a></li><li><a href="/python/module/pandas.html" class="sidebar-link">pandas</a></li><li><a href="/python/module/matplotlib.html" class="sidebar-link">matplotlib</a></li><li><a href="/python/module/scikit-learn.html" class="sidebar-link">scikit-learn</a></li><li><a href="/python/module/cal.html" class="sidebar-link">calculate</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="numpy"><a href="#numpy" class="header-anchor">#</a> numpy</h1> <ul><li><p>N-dimensional array (matrix), fast and efficient, vector mathematical operations</p></li> <li><p>Efficient Index without Loop</p></li> <li><p>Open source, free cross platform, with running efficiency comparable to C/Matlab</p></li></ul> <p>*WebSite
+https://numpy.org/doc/stable/user/index.html</p> <h2 id="creating-and-accessing-arrays"><a href="#creating-and-accessing-arrays" class="header-anchor">#</a> Creating and accessing arrays</h2> <h3 id="create-array-from-python-list"><a href="#create-array-from-python-list" class="header-anchor">#</a> create Array from Python list</h3> <div class="language-dtd extra-class"><pre class="language-text"><code>import numpy as np
+list_1 = [1, 2, 3, 4]
+array_1 = np.array(list_1)   # one-dimensional array
+
+list_2 = [5, 6, 7, 8]
+array_2 = np.array([list_1, list_2])  # two-dimensional array
+
+array_3=np.arange(1,10) # Create arrays from 1 to 10
+array_4=np.arange(1,10,2) # Create an array from 1 to 10 with step 2
+array_5=np.zeros(5)             # Create 5 arrays of 0
+array_6=np.zeros([2,3])       # Create 2 * 3 arrays with 0
+array_7=np.eye(5)                # Create a 5 * 5 identity matrix
+
+array_2.shape  # Dimensions of arrays
+array_2.size     # The number of array elements
+array_2.dtype  # The number of array elements
+
+array_3[1]  # Accessing the first element
+array_3[2:4]  # Accessing 2,3,4 element
+
+array_2[1,2]  # Access the first line, second element
+array_2[1][2]  # Access the first line, second element
+
+array_7=np.array([[1,2,3],[4,5,6],[7,8,9]])
+#section
+array_8[:2,1:]     # From line 0 to line 2, from column 1 to the last column
+
+Array And Matrix
+import numpy as np
+np.random.randn(10)  # Create a 1-dimensional array of 10 elements
+
+np.random.randint(10) # Create a data integer up to 10
+
+np.random.randint(10,size=10) # Create a one-dimensional integer array of up to 10 elements
+
+np.random.randint(10,size=(2,3)) # Create a 2D integer array of 2 * 3 within 10
+
+np.random.randint(10,size=20).reshape(4,5)  # Create a one-dimensional integer array of 20 elements within 10, and convert it to a 2D array of 4 * 5
+
+
+</code></pre></div><h3 id="operation-of-arrays"><a href="#operation-of-arrays" class="header-anchor">#</a> Operation of arrays</h3> <div class="language-dtd extra-class"><pre class="language-text"><code>a=np.random.randint(10,size=20).reshape(4,5)
+b=np.random.randint(10,size=20).reshape(4,5)
+a+b
+a-b
+a*b
+a/b
+</code></pre></div><h2 id="array-and-matrix"><a href="#array-and-matrix" class="header-anchor">#</a> Array and matrix</h2> <div class="language-dtd extra-class"><pre class="language-text"><code>np.mat([[1,2,3],[4,5,6]])
+np.mat(a)                      # Create through a two-dimensional array
+</code></pre></div><h3 id="matrix-operations"><a href="#matrix-operations" class="header-anchor">#</a> matrix operations</h3> <div class="language-dtd extra-class"><pre class="language-text"><code>A = np.mat(a)
+B = np.mat(b)
+A+B
+A-B
+
+A1=np.mat(np.random.randint(10,size=20).reshape(5,4))
+B1=np.mat(np.random.randint(10,size=20).reshape(4,5))
+A1*B1
+</code></pre></div><h2 id="array-s-function"><a href="#array-s-function" class="header-anchor">#</a> Array's function</h2> <div class="language- extra-class"><pre class="language-text"><code>a=np.random.randint(10,size=20).reshape(4,5)
+a
+np.unique(a)  # Calculate the unique element in a
+sum(a)  # Calculate the sum of elements for each column
+sum(a[0]) # Calculate the sum of elements in the first row
+sum(a[:,0]) # Calculate the sum of elements in the first column from top to bottom
+a.max() # Calculate the maximum value in a
+max(a[0]) # Calculate the maximum value of the first row in a
+max(a[:,0]) # Calculate the maximum value of the element in the first column from top to bottom
+</code></pre></div><h2 id="array-input-and-output"><a href="#array-input-and-output" class="header-anchor">#</a> Array input And output</h2> <div class="language- extra-class"><pre class="language-text"><code># Serializing numpy arrays using pickle
+import pickle
+import numpy as np
+x = np.arange(10)
+
+f = open('x.pkl','wb')
+pickle.dump(x,f)
+!ls
+
+f=open('x.pkl','rb')
+b=pickle.load(f)
+
+np.save('one_array',x)
+!ls
+t=np.load('one_array.npy')
+
+y=np.arange(20)
+np.savez('two_array.npz',a=x,b=y)
+!ls
+c=np.load('two_array.npz')
+c['a']
+c['b']
+</code></pre></div><h1 id="refer"><a href="#refer" class="header-anchor">#</a> Refer</h1> <h2 id="creating-and-accessing-arrays-refer"><a href="#creating-and-accessing-arrays-refer" class="header-anchor">#</a> Creating and accessing arrays (refer)</h2> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
+list_1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span>
+array_1 <span class="token operator">=</span> np<span class="token punctuation">.</span>array<span class="token punctuation">(</span>list_1<span class="token punctuation">)</span>   <span class="token comment"># 一维数组</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>list_1
+</code></pre></div><div class="language- extra-class"><pre><code>[1, 2, 3, 4]
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_1
+</code></pre></div><div class="language- extra-class"><pre><code>array([1, 2, 3, 4])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>list_2 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">]</span>
+array_2 <span class="token operator">=</span> np<span class="token punctuation">.</span>array<span class="token punctuation">(</span><span class="token punctuation">[</span>list_1<span class="token punctuation">,</span> list_2<span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment"># 二维数组</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>list_2
+</code></pre></div><div class="language- extra-class"><pre><code>[5, 6, 7, 8]
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_2
+</code></pre></div><div class="language- extra-class"><pre><code>array([[1, 2, 3, 4],
+       [5, 6, 7, 8]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_3<span class="token operator">=</span>np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">)</span> <span class="token comment">#创建1到10的数组</span>
+array_4<span class="token operator">=</span>np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token comment">#创建1到10的数组，间隔2</span>
+array_5<span class="token operator">=</span>np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span>             <span class="token comment">#创建5个为0的数组</span>
+array_6<span class="token operator">=</span>np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span>       <span class="token comment">#创建2*3个为0的数组</span>
+array_7<span class="token operator">=</span>np<span class="token punctuation">.</span>eye<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span>                <span class="token comment">#创建5*5的单位矩阵</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_3
+</code></pre></div><div class="language- extra-class"><pre><code>array([1, 2, 3, 4, 5, 6, 7, 8, 9])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_4
+</code></pre></div><div class="language- extra-class"><pre><code>array([1, 3, 5, 7, 9])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_5
+</code></pre></div><div class="language- extra-class"><pre><code>array([0., 0., 0., 0., 0.])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_6
+</code></pre></div><div class="language- extra-class"><pre><code>array([[0., 0., 0.],
+       [0., 0., 0.]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_7
+</code></pre></div><div class="language- extra-class"><pre><code>array([[1., 0., 0., 0., 0.],
+       [0., 1., 0., 0., 0.],
+       [0., 0., 1., 0., 0.],
+       [0., 0., 0., 1., 0.],
+       [0., 0., 0., 0., 1.]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_2<span class="token punctuation">.</span>shape  <span class="token comment"># 数组的维度</span>
+</code></pre></div><div class="language- extra-class"><pre><code>(2, 4)
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_2<span class="token punctuation">.</span>size     <span class="token comment"># 数组元素的个数</span>
+</code></pre></div><div class="language- extra-class"><pre><code>8
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_2<span class="token punctuation">.</span>dtype  <span class="token comment">#数组元素的数据类型</span>
+</code></pre></div><div class="language- extra-class"><pre><code>dtype('int64')
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_3<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token comment">#访问第1个元素</span>
+</code></pre></div><div class="language- extra-class"><pre><code>2
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_3<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">:</span><span class="token number">4</span><span class="token punctuation">]</span>  <span class="token comment">#访问第2到3个元素</span>
+</code></pre></div><div class="language- extra-class"><pre><code>array([3, 4])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_2<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">]</span>  <span class="token comment">#访问第1行，第2个元素</span>
+</code></pre></div><div class="language- extra-class"><pre><code>7
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_2<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>  <span class="token comment">#访问第1行，第2个元素</span>
+</code></pre></div><div class="language- extra-class"><pre><code>7
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_8<span class="token operator">=</span>np<span class="token punctuation">.</span>array<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token comment">#切片</span>
+array_8<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span>     <span class="token comment">#从第0行到第2行，从第1列到最后一列</span>
+</code></pre></div><div class="language- extra-class"><pre><code>array([[2, 3],
+       [5, 6]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>array_7<span class="token operator">=</span>np<span class="token punctuation">.</span>eye<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span> 
+
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>
+</code></pre></div><h2 id="array-and-matrix-refer"><a href="#array-and-matrix-refer" class="header-anchor">#</a> Array and Matrix(refer)</h2> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randn<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span>  <span class="token comment">#创建一个10个元素的1维数组</span>
+</code></pre></div><div class="language- extra-class"><pre><code>array([ 0.42493784, -1.00915342, -0.94640226,  0.60185647,  0.54586824,
+        0.69668488, -0.8211607 ,  0.23638224, -0.62685731, -2.0602249 ])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span> <span class="token comment"># 创建一个10以内的数据整数</span>
+</code></pre></div><div class="language- extra-class"><pre><code>7
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span>size<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">)</span> <span class="token comment"># 创建一个10以内的10个元素的一维的整数数组</span>
+</code></pre></div><div class="language- extra-class"><pre><code>array([4, 1, 8, 0, 9, 4, 7, 8, 0, 7])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span>size<span class="token operator">=</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment"># 创建一个10以内的2*3的二维的整数数组</span>
+</code></pre></div><div class="language- extra-class"><pre><code>array([[1, 6, 0],
+       [9, 9, 8]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span>size<span class="token operator">=</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reshape<span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span>  <span class="token comment"># 创建一个10以内的20个元素的一维的整数数组,转化为4*5的二维数组</span>
+</code></pre></div><div class="language- extra-class"><pre><code>array([[8, 8, 9, 7, 9],
+       [2, 7, 0, 7, 2],
+       [2, 8, 6, 5, 7],
+       [4, 4, 8, 5, 5]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># 数组的运算</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>a<span class="token operator">=</span>np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span>size<span class="token operator">=</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reshape<span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span>
+b<span class="token operator">=</span>np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span>size<span class="token operator">=</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reshape<span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>a
+</code></pre></div><div class="language- extra-class"><pre><code>array([[5, 1, 0, 3, 6],
+       [0, 6, 4, 2, 8],
+       [2, 5, 2, 8, 2],
+       [0, 3, 1, 2, 7]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>b
+</code></pre></div><div class="language- extra-class"><pre><code>array([[9, 8, 3, 6, 6],
+       [6, 1, 8, 9, 0],
+       [5, 6, 3, 8, 5],
+       [3, 7, 7, 7, 7]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>a<span class="token operator">+</span>b
+</code></pre></div><div class="language- extra-class"><pre><code>array([[14,  9,  3,  9, 12],
+       [ 6,  7, 12, 11,  8],
+       [ 7, 11,  5, 16,  7],
+       [ 3, 10,  8,  9, 14]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>a<span class="token operator">-</span>b
+</code></pre></div><div class="language- extra-class"><pre><code>array([[-4, -7, -3, -3,  0],
+       [-6,  5, -4, -7,  8],
+       [-3, -1, -1,  0, -3],
+       [-3, -4, -6, -5,  0]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>a<span class="token operator">*</span>b
+</code></pre></div><div class="language- extra-class"><pre><code>array([[45,  8,  0, 18, 36],
+       [ 0,  6, 32, 18,  0],
+       [10, 30,  6, 64, 10],
+       [ 0, 21,  7, 14, 49]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>a<span class="token operator">/</span>b
+</code></pre></div><div class="language- extra-class"><pre><code>/tmp/ipykernel_5901/1348051284.py:1: RuntimeWarning: divide by zero encountered in divide
+  a/b
+
+
+
+
+
+array([[0.55555556, 0.125     , 0.        , 0.5       , 1.        ],
+       [0.        , 6.        , 0.5       , 0.22222222,        inf],
+       [0.4       , 0.83333333, 0.66666667, 1.        , 0.4       ],
+       [0.        , 0.42857143, 0.14285714, 0.28571429, 1.        ]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># matrix</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>np<span class="token punctuation">.</span>mat<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>matrix([[1, 2, 3],
+        [4, 5, 6]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>np<span class="token punctuation">.</span>mat<span class="token punctuation">(</span>a<span class="token punctuation">)</span>                      <span class="token comment">#通过二维数组创建</span>
+</code></pre></div><div class="language- extra-class"><pre><code>matrix([[5, 1, 0, 3, 6],
+        [0, 6, 4, 2, 8],
+        [2, 5, 2, 8, 2],
+        [0, 3, 1, 2, 7]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># 矩阵的运算</span>
+A <span class="token operator">=</span> np<span class="token punctuation">.</span>mat<span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+B <span class="token operator">=</span> np<span class="token punctuation">.</span>mat<span class="token punctuation">(</span>b<span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>A
+</code></pre></div><div class="language- extra-class"><pre><code>matrix([[5, 1, 0, 3, 6],
+        [0, 6, 4, 2, 8],
+        [2, 5, 2, 8, 2],
+        [0, 3, 1, 2, 7]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>B
+</code></pre></div><div class="language- extra-class"><pre><code>matrix([[9, 8, 3, 6, 6],
+        [6, 1, 8, 9, 0],
+        [5, 6, 3, 8, 5],
+        [3, 7, 7, 7, 7]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>A<span class="token operator">+</span>B
+</code></pre></div><div class="language- extra-class"><pre><code>matrix([[14,  9,  3,  9, 12],
+        [ 6,  7, 12, 11,  8],
+        [ 7, 11,  5, 16,  7],
+        [ 3, 10,  8,  9, 14]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>A<span class="token operator">-</span>B
+</code></pre></div><div class="language- extra-class"><pre><code>matrix([[-4, -7, -3, -3,  0],
+        [-6,  5, -4, -7,  8],
+        [-3, -1, -1,  0, -3],
+        [-3, -4, -6, -5,  0]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>A1<span class="token operator">=</span>np<span class="token punctuation">.</span>mat<span class="token punctuation">(</span>np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span>size<span class="token operator">=</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reshape<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+B1<span class="token operator">=</span>np<span class="token punctuation">.</span>mat<span class="token punctuation">(</span>np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span>size<span class="token operator">=</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reshape<span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>A1
+</code></pre></div><div class="language- extra-class"><pre><code>matrix([[2, 8, 7, 5],
+        [4, 1, 4, 4],
+        [5, 1, 0, 3],
+        [9, 6, 4, 2],
+        [2, 6, 4, 5]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>B1
+</code></pre></div><div class="language- extra-class"><pre><code>matrix([[1, 4, 7, 9, 2],
+        [7, 4, 3, 3, 0],
+        [6, 8, 9, 3, 7],
+        [9, 7, 4, 6, 8]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>A1<span class="token operator">*</span>B1
+
+</code></pre></div><div class="language- extra-class"><pre><code>matrix([[145, 131, 121,  93,  93],
+        [ 71,  80,  83,  75,  68],
+        [ 39,  45,  50,  66,  34],
+        [ 93, 106, 125, 123,  62],
+        [113,  99,  88,  78,  72]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>a1<span class="token operator">=</span>np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span>size<span class="token operator">=</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reshape<span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>a1
+
+</code></pre></div><div class="language- extra-class"><pre><code>array([[6, 1, 1, 7, 7],
+       [7, 0, 7, 1, 3],
+       [4, 7, 6, 9, 7],
+       [6, 6, 6, 2, 0]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>np<span class="token punctuation">.</span>unique<span class="token punctuation">(</span>a1<span class="token punctuation">)</span>  <span class="token comment">#计算a中唯一的元素</span>
+</code></pre></div><div class="language- extra-class"><pre><code>array([0, 1, 2, 3, 4, 6, 7, 9])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token builtin">sum</span><span class="token punctuation">(</span>a1<span class="token punctuation">)</span>  <span class="token comment">#计算每一列的元素和</span>
+</code></pre></div><div class="language- extra-class"><pre><code>array([23, 14, 20, 19, 17])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>a2<span class="token operator">=</span>np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span>size<span class="token operator">=</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reshape<span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>a2
+</code></pre></div><div class="language- extra-class"><pre><code>array([[6, 8],
+       [5, 1],
+       [5, 5],
+       [4, 3]])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>np<span class="token punctuation">.</span>unique<span class="token punctuation">(</span>a2<span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>array([1, 3, 4, 5, 6, 8])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token builtin">sum</span><span class="token punctuation">(</span>a1<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#从上到下计算第一列的元素和</span>
+</code></pre></div><div class="language- extra-class"><pre><code>23
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>a1<span class="token punctuation">.</span><span class="token builtin">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#计算a中的最大值</span>
+</code></pre></div><div class="language- extra-class"><pre><code>9
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>a2<span class="token punctuation">.</span><span class="token builtin">max</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language- extra-class"><pre><code>8
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token builtin">max</span><span class="token punctuation">(</span>a1<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#计算a中第一行的最大值</span>
+</code></pre></div><div class="language- extra-class"><pre><code>7
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token builtin">max</span><span class="token punctuation">(</span>a2<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span> 
+</code></pre></div><div class="language- extra-class"><pre><code>8
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token builtin">max</span><span class="token punctuation">(</span>a1<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#从上到下计算第一列的元素最大值</span>
+</code></pre></div><div class="language- extra-class"><pre><code>7
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code><span class="token builtin">max</span><span class="token punctuation">(</span>a2<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#从上到下计算第一列的元素最大值</span>
+</code></pre></div><div class="language- extra-class"><pre><code>6
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>
+</code></pre></div><h2 id="array-s-input-output-refer"><a href="#array-s-input-output-refer" class="header-anchor">#</a> Array's input &amp; output(refer)</h2> <div class="language-python extra-class"><pre class="language-python"><code><span class="token comment"># 使用pickle序列化numpy array</span>
+<span class="token keyword">import</span> pickle
+<span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
+x <span class="token operator">=</span> np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>x
+</code></pre></div><div class="language- extra-class"><pre><code>array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>f <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'x.pkl'</span><span class="token punctuation">,</span><span class="token string">'wb'</span><span class="token punctuation">)</span>
+pickle<span class="token punctuation">.</span>dump<span class="token punctuation">(</span>x<span class="token punctuation">,</span>f<span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>!ls
+</code></pre></div><div class="language- extra-class"><pre><code>ArrayOpt .ipynb			 Matrix.ipynb  x.pkl
+Array 的input和output操作.ipynb  nohup.out
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>f<span class="token operator">=</span><span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'x.pkl'</span><span class="token punctuation">,</span><span class="token string">'rb'</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>b<span class="token operator">=</span>pickle<span class="token punctuation">.</span>load<span class="token punctuation">(</span>f<span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>b
+</code></pre></div><div class="language- extra-class"><pre><code>array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>np<span class="token punctuation">.</span>save<span class="token punctuation">(</span><span class="token string">'one_array'</span><span class="token punctuation">,</span>x<span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>!ls
+</code></pre></div><div class="language- extra-class"><pre><code>ArrayOpt .ipynb			 Matrix.ipynb  one_array.npy
+Array 的input和output操作.ipynb  nohup.out     x.pkl
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>t<span class="token operator">=</span>np<span class="token punctuation">.</span>load<span class="token punctuation">(</span><span class="token string">'one_array.npy'</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>t
+</code></pre></div><div class="language- extra-class"><pre><code>array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>y<span class="token operator">=</span>np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>y
+</code></pre></div><div class="language- extra-class"><pre><code>array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,
+       17, 18, 19])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>np<span class="token punctuation">.</span>savez<span class="token punctuation">(</span><span class="token string">'two_array.npz'</span><span class="token punctuation">,</span>a<span class="token operator">=</span>x<span class="token punctuation">,</span>b<span class="token operator">=</span>y<span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>!ls
+</code></pre></div><div class="language- extra-class"><pre><code>ArrayOpt .ipynb			 Matrix.ipynb  one_array.npy  x.pkl
+Array 的input和output操作.ipynb  nohup.out     two_array.npz
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>c<span class="token operator">=</span>np<span class="token punctuation">.</span>load<span class="token punctuation">(</span><span class="token string">'two_array.npz'</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>c
+</code></pre></div><div class="language- extra-class"><pre><code>&lt;numpy.lib.npyio.NpzFile at 0x7f1e8c392c90&gt;
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>c<span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">]</span>
+</code></pre></div><div class="language- extra-class"><pre><code>array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>c<span class="token punctuation">[</span><span class="token string">'b'</span><span class="token punctuation">]</span>
+</code></pre></div><div class="language- extra-class"><pre><code>array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,
+       17, 18, 19])
+</code></pre></div><div class="language-python extra-class"><pre class="language-python"><code>
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last updated:</span> <span class="time">4/5/2026, 7:49:42 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/python/init/Jupyter.html" class="prev">
+        What is Jupyter
+      </a></span> <span class="next"><a href="/python/module/scipy.html">
+        scipy
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.17380b21.js" defer></script><script src="/assets/js/2.21a5ec8c.js" defer></script><script src="/assets/js/67.7c84de8c.js" defer></script>
+  </body>
+</html>
